@@ -2,15 +2,6 @@
 !-----------------------------------------------------------
 
 ¡Todo lo que necesita para aprobar los exámenes CompTIA CTT+ TK0-201, TK0-202 y TK0-203!
-Calificación: 4.5 de 5
-4.5
-206 calificaciones
-814
-Estudiantes
-5,5 horas
-Total
-Última actualización diciembre 2020
-Inglés
 
 lo que aprenderás
 Todo lo que necesita para aprobar los exámenes informáticos y basados en el rendimiento CompTIA CTT+ TK0-201, TK0-202 y TK0-203
