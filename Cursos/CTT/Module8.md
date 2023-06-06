@@ -1,115 +1,115 @@
-!-------------------------------------------
-!-------------------------------------------
-All right, I couldn't let you go without a bonus lecture.
+!-----------------------------------------------------------
+!-----------------------------------------------------------
+Está bien, no podía dejarte ir sin una lección extra.
 
-Let's talk about how to get rid of those pre certification test nerves.
+Hablemos de cómo deshacernos de esos nervios previos a la prueba de certificación.
 
-It is completely understandable that you are a little anxious before taking both the computer based
+Es completamente comprensible que esté un poco ansioso antes de tomar la computadora
 
-test and the video exam.
+prueba y el video examen.
 
-You're not alone in this.
+No estás solo en esto.
 
-You have invested considerable time and money into getting this certification and you want to get it
+Ha invertido una cantidad considerable de tiempo y dinero para obtener esta certificación y desea obtenerla.
 
-right.
+bien.
 
-So the first thing to remember is that it's completely understandable that you're nervous.
+Entonces, lo primero que debe recordar es que es completamente comprensible que esté nervioso.
 
-But there are some things you can do, some little hacks to limit the nerves that you have on test day
+Pero hay algunas cosas que puedes hacer, algunos pequeños trucos para limitar los nervios que tienes el día del examen.
 
-number one, prepare the night before.
+número uno, prepárate la noche anterior.
 
-OK, so make sure you get a full night's sleep the night before you're taking your exam.
+Vale, así que asegúrate de dormir bien la noche anterior al examen.
 
-If you're taking it in the morning, you know, make sure you've had breakfast.
+Si lo vas a tomar por la mañana, ya sabes, asegúrate de haber desayunado.
 
-Don't take the exam on an empty stomach, treat your body well so that you have the rest and the fuel
+No hagas el examen con el estómago vacío, trata bien a tu cuerpo para que tenga el descanso y el combustible.
 
-needed to perform at your best.
+necesario para rendir al máximo.
 
-Number two, don't be rushed.
+Número dos, no se apresure.
 
-So, you know, get to the testing center early so you don't have to worry about getting parking and
+Entonces, ya sabes, llega temprano al centro de pruebas para que no tengas que preocuparte por conseguir estacionamiento y
 
-all those other things that can get you nervous and flustered.
+todas esas otras cosas que pueden ponerte nervioso y nervioso.
 
-You might map out the directions ahead of time, even drive to the testing center ahead of time so that
+Puede trazar las direcciones con anticipación, incluso conducir al centro de pruebas con anticipación para que
 
-there are no surprises on test day.
+no hay sorpresas el día del examen.
 
-The same could be said if you are using Pearson views at home testing solution, which is, you know,
+Lo mismo podría decirse si está utilizando la solución de prueba Pearson Views at Home, que es, ya sabe,
 
-when you have the the proctor watching you, you know, make sure you test your hardware and software
+cuando tenga al supervisor observándolo, ya sabe, asegúrese de probar su hardware y software
 
-so that there are no issues on the day of your test run.
+para que no haya problemas el día de la prueba.
 
-All that ahead of time and get that stress out of your mind, know what to bring for your test, know
+Todo eso con anticipación y quita ese estrés de tu mente, sepa qué traer para su examen, sepa
 
-what forms of ID you need.
+qué formas de identificación necesita.
 
-All of that can be found on comp tag.
+Todo eso se puede encontrar en la etiqueta comp.
 
-Again, you don't want there to be any surprises when you get there for your test.
+Una vez más, no querrás que haya sorpresas cuando llegues allí para tu examen.
 
-Now, before you sit down for the computer based test, before you actually hit that record button,
+Ahora, antes de sentarse para la prueba basada en computadora, antes de presionar el botón de grabación,
 
-you want to manage some of these physiological stressors.
+desea controlar algunos de estos factores estresantes fisiológicos.
 
-So the best way to do that is to just take a nice deep breath
+Entonces, la mejor manera de hacerlo es simplemente respirar profundamente
 
-and allow yourself to just relax a little bit.
+y permítete relajarte un poco.
 
-If you're if you're doing the performance based exam, you might move around, you might do some jumping
+Si está haciendo el examen basado en el desempeño, puede moverse, puede hacer algunos saltos
 
-jacks.
+tomas
 
-All of this can get your body moving a little bit and just relax you.
+Todo esto puede hacer que su cuerpo se mueva un poco y simplemente lo relaje.
 
-And then you want to focus, you know, take a minute before you jump into that first question on the
+Y luego quiere concentrarse, ya sabe, tómese un minuto antes de saltar a la primera pregunta en el
 
-computer based exam and just, you know, realign yourself.
+examen basado en computadora y simplemente, ya sabes, realinearte.
 
-Remind yourself why you're why, why you are there.
+Recuérdate a ti mismo por qué estás ahí, por qué estás ahí.
 
-Remind yourself about all the preparation that you've done and just refocus.
+Recuerda toda la preparación que has hecho y vuelve a concentrarte.
 
-And if you get, you know, 30 questions in and you start to get a resurgence of your nerves, you know,
+Y si respondes, ya sabes, 30 preguntas y empiezas a tener un resurgimiento de los nervios, ya sabes,
 
-sit back in your chair, take another deep breath and refocus again.
+siéntese en su silla, tome otra respiración profunda y vuelva a concentrarse.
 
-Don't keep answering the questions when you're in a nervous state, but take care of those nerves when
+No sigas respondiendo las preguntas cuando estés nervioso, pero cuida esos nervios cuando
 
-it comes to the performance based exam.
+se trata del examen basado en el rendimiento.
 
-Remember, there is nothing better than preparation.
+Recuerda, no hay nada mejor que la preparación.
 
-Another thing that will help you calm your nerves is visualization.
+Otra cosa que te ayudará a calmar los nervios es la visualización.
 
-Visualize what it's going to be like to pass that exam, particularly for the performance based.
+Visualice cómo será aprobar ese examen, particularmente para los que se basan en el desempeño.
 
-What's it going to feel like standing in front of the class and really dropping the mic and doing a
+¿Cómo se sentirá pararse frente a la clase y realmente dejar caer el micrófono y hacer un
 
-great job on this.
+gran trabajo en esto.
 
-What's it going to look like when you've concluded the lecture and you know, you did a great job?
+¿Cómo se verá cuando haya concluido la conferencia y sepa que hizo un gran trabajo?
 
-What's it going to feel like?
+¿Qué se va a sentir?
 
-Visualizing your success can make sure that you are actually successful when it comes down to examination
+Visualizar su éxito puede asegurarse de que realmente tenga éxito cuando se trata de un examen.
 
-time.
+tiempo.
 
-So just remember that you're not alone.
+Así que recuerda que no estás solo.
 
-Test taking anxiety is common even for the most experienced certification test takers.
+La ansiedad por tomar exámenes es común incluso para los examinados de certificación más experimentados.
 
-Keep in mind some of these reminders.
+Tenga en cuenta algunos de estos recordatorios.
 
-Treat yourself well.
+Trátate bien.
 
-You've done a lot of work here.
+Has hecho mucho trabajo aquí.
 
-Thank you for being part of this class.
+Gracias por ser parte de esta clase.
 
-And I wish you all the best.
+Y te deseo todo lo mejor.

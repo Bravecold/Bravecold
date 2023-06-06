@@ -23,3 +23,5 @@ Para quién es este curso:
 Profesionales técnicos interesados en obtener credenciales por sus habilidades de capacitación técnica.
 Cualquier persona interesada en convertirse en formador técnico.
 Cualquiera que se esté preparando para el examen CompTIA CTT+
+
+https://www.comptia.org/certifications/ctt
