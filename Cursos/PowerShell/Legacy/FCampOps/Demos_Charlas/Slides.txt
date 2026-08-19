@@ -1,0 +1,3402 @@
+Warning: truncated output (original token count: 76558)
+Total output lines: 8619
+
+!
+
+	PowerShell Basico en espaniol
+	Con Fabian Campo
+	@FCampo
+	Microsoft Certified Trainer
+
+
+!
+			AGENDA
+
+
+
+
+!En el menu de hoy tendremos
+
+De entrada:
+Una Calurosa Bienvenida con La historia y el Origen del PowerShell
+
+De plato fuerte:
+Los Comandlets (cmd-lets) eso como se come?
+
+Y De postre:
+una pequena Demostracion
+
+
+!La Historia
+PowerShell surge del distinguido ingeniero Joey Snover*,
+quien al ver el potencial de la linea de comandos Bash
+de los entornos Linux,penso en hacer uso de .Net como
+la evolucion a una nueva interfaz de comandos.
+
+Aunque PowerShell no es una simple interfaz como el
+D.O.S.
+
+!"PowerShell es mucho mas que una pantalla Azul con letras Blancas"
+
+Tambien puede ser Negro con letras verdes,
+-Eso, como en la Matrix...
+
+!La Historia
+El D.O.S. no evoluciono, se estanco desde los 80,
+y los 83 Commandos que tenia, eran monoliticos,
+no te permitian una interaccion con las salidas y
+era complicado manejar variables.
+
+PowerShell es dinamico, maneja un concepto Orientado a
+Objetos, Metodos, Atributos y Clases, y al mismo tiempo
+generar tu propio codigo en el.
+
+PoSh tiene miles de Librerias o Modulos que contienen a su
+vez Scripts o CMD-Lets especializados para cada producto.
+
+!Reto
+
+Intenta hacer en tu powershell un 4 +87 +1356
+
+!PowerShell es la base para todos los sistemas operativos
+Desde Windows Vista a la fecha, Microsoft le ha apostado.
+
+Puedes consultar los eventos, Procesos y servicios, asi como
+adicionar, eliminar y modificar atributos segun lo necesites.
+
+!JSnover dijo: " Si Aprendes PowerShell, Aprenderas TODO".
+
+ y Neo dijo: "Ya se kung-Fu..."
+
+!-------------------------------------------
+!-------------------------------------------
+
+!Everything you need to pass the CompTIA CTT+ TK0-201, TK0-202, and TK0-203 exams!
+Rating: 4.5 out of 5
+4.5
+206 ratings
+814
+Students
+5.5 hours
+Total
+Last updated December 2020
+English
+English [Auto]
+What you'll learn
+Everything you need to pass the CompTIA CTT+ TK0-201, TK0-202, and TK0-203 computer and performance-based exams
+Develop confidence as a technical trainer and classroom instructor
+Video lectures and practice tests on the five CTT+ Domains of Understanding
+Description
+The purpose of this course is to prepare you for both the computer-based and performance-based exams required to become a CompTIA Certified Technical Trainer. The Definitive CTT+ course covers all the 5 domains of understanding in the CTT+ body of knowledge with video lectures, slide presentations, and sample quizzes. You will have all the information you need to pass the test and get started in a career as a technical trainer!
+
+Who this course is for:
+Technical professionals interested in gaining credentials for their technical training skills.
+Anyone interested in becoming a technical trainer.
+Anyone preparing for the CompTIA CTT+ exam
+
+!-------------------------------------------
+Hello and welcome to the definitive CTT plus course on Udemy, my name is Thomas Moore.
+
+I'm going to be your instructor for the length of this course.
+
+But before we get started, I thought we could talk a little bit about you.
+
+What brings you here today?
+
+What are your motivations for getting the certification?
+
+It could be that you're already a technical trainer and you're required to get the certification for
+
+your job.
+
+It could be that you want to get into technical training and you'd like to put the CTT plus on your
+
+resume.
+
+Or maybe you're an I.T. professional already and you want to supplement your income by teaching some
+
+technical courses here and there and you want the CTT plus to prove your abilities in the classroom.
+
+But whatever the case, I want to assure you that this course is going to take care of your goals.
+
+So the purpose of this course, number one, is to get you through the CTT plus exam so you can get
+
+your certification.
+
+So that's the teko to zero one or the computer based exam.
+
+And then also the video submission exam, which is either the teko two to four in classroom teaching
+
+or the Teko two or three for virtual classroom teaching, regardless of which one you're going for.
+
+We've got everything we're going to talk about that moving forward to make sure you go over all the
+
+domains of understanding and also have all the instructions for video submission and you feel well supported
+
+for that.
+
+So that's the first purpose of this course, is for you to get that certification.
+
+But beyond that, you know, I'm really hoping that this can be a resource for you moving forward so
+
+that you can feel confident as a technical trainer no matter where you teach.
+
+So there's over 85 videos in this course.
+
+They're short and to the point, but they cover all the fundamental principles of technical training.
+
+And you have access to them as long as you have access to this course.
+
+So, you know, in the future, if you need to dip back in, cover a specific principal or topic, you'll
+
+be able to watch the videos again, refresh yourself and always feel prepared for whatever course you're
+
+teaching.
+
+So before we get started again, I'd like for you to just think, you know, pause the video for about
+
+a minute and just think, why am I here?
+
+What is my motivation?
+
+You might think about your career, the kind of job you want to get with your certification, but I
+
+want you to think even further than that.
+
+Really, practically.
+
+How is this going to impact your day to day life for yourself, for your family?
+
+So give some thought to that.
+
+And then in the comments below, just write your name and then a couple of bullet points as to your
+
+main motivations for taking the course.
+
+So, again, my name is Thomas.
+
+I'm looking forward to being with you throughout this course.
+
+Let's get started.
+
+!-------------------------------------------
+
+Now that you've introduced yourself in the comments below and told us a little bit about your motivation
+
+and goals, I figured I'd tell you a little bit more about myself.
+
+My name is Thomas Moore.
+
+I've been in the education industry for over 15 years and I've taught all sorts of audiences from one
+
+on one education of children, teaching in public schools, private schools, all the way to adult education,
+
+group learning and also technical training.
+
+And I've taught all sorts of technical concepts from music theory and composition to foreign language,
+
+grammar and delivery and then also information technology, cybersecurity.
+
+I've taught some of the federally recognized baseline certifications for work in the government sector,
+
+and I've also worked with technology organizations as they developed courses for technical training
+
+for the maturation of their resources.
+
+So I hope to bring all of this experience together in these videos, hopefully with stories and some
+
+anecdotes that will really bring life to the program and help you see what it's like in the real world.
+
+So anyway, that's me.
+
+I look forward to teaching with you and let's go ahead and move on.
+
+!-------------------------------------------
+
+I wanted to take a few minutes to talk about the benefits of having the plus certification, the purpose
+
+of the certification is to prepare somebody for entrance into the field of technical training, obviously.
+
+And it's meant to give evidence that you have met a certain standard of excellence when it comes to
+
+being able to train complex topics.
+
+So, as you know, competition is a provider of technical certifications.
+
+But if you've worked at all in technology, you recognize that there is a big difference between being
+
+able to perform a technical task and being able to communicate it to others, to really teach it to
+
+others.
+
+And so this certification is meant to fill that gap is to give evidence that somebody not only can understand
+
+a complex topic, but can also communicated to others and has a certain level of public speaking ability,
+
+presentation ability so that they could lead a class to learn a new skill or ability.
+
+So that's what the certification says about you and it's on your resume.
+
+Also, it's trusted by some leading organizations like Dell, Microsoft, Adobe, Cisco, IBM.
+
+They all look to the CTT plus certification as evidence that, you know, you're a qualified trainer.
+
+Some people will also get the CTT plus if they work for an educational provider or an academy, because
+
+competition allows you to partner with them as a company.
+
+If you have the seat plus of somebody on the staff, has the technical trainer certification, then
+
+you can become an authorized training partner with TI and they'll send you some resources and they'll
+
+also help you market and give you some some content for your courses.
+
+So look into that.
+
+If you work for an organization, that can be an excellent opportunity for you to gain some sort of
+
+job security in your training organization, because you can, you know, convince them to become a
+
+training partner with come to you.
+
+Beyond that, you know, having a training certification really gives you confidence.
+
+It allows you to know that you've been certified in this rather than an organization, perhaps an internal
+
+training, just grabbing somebody from a different project to teach.
+
+They can rely on you because you have a certification to back up your ability to communicate and teach
+
+technical concepts.
+
+Another thing to remember is even though there's a lot of online learning, people still enjoy having
+
+an instructor to guide them through the process of learning a new topic.
+
+Reading a book is one thing, but having somebody who knows how to do something, teach you about it
+
+really is irreplaceable.
+
+And so, according to a recent survey, 87 percent of people who are taking on a new difficult concept
+
+prefer to have instructor led training as their primary form of training.
+
+So this is something that's still very relevant, even in a time when we have access to all sorts of
+
+materials on the Internet.
+
+!-------------------------------------------
+All right, so here we are, the definitive CTT, plus everything you need to pass the TETCO to a one
+
+to two and two or three.
+
+So I thought I'd start by just giving you an outline of the course, almost like a syllabus of what
+
+to expect in this course, how it's divided up, how the information is divided up so it'll be easily
+
+accessible to you.
+
+So let's just jump right in on that.
+
+The first thing we're going to talk about is an overview of the certification itself.
+
+So as you've already heard me reference, there are three different tests here.
+
+What are those tests?
+
+What's involved in each of them?
+
+How can you be prepared for each of them?
+
+What do they look like?
+
+What do they feel like?
+
+That's what we're going to talk about in the overview of the certification.
+
+And following that, there is a section of videos for each of the domains of understanding.
+
+So according to the official contact plus domains of understanding, there are five domain one planning
+
+prior to the course, which is where you talk about classroom logistics and of course, creation domain
+
+two methods and media for instructional delivery.
+
+This is where you talk about technologies and means to disseminate information to a class domain.
+
+Three instructor credibility and communications that has to do with your oral presentation skills and
+
+ability to manage a classroom domain for IS group facilitation.
+
+That's where a large portion of the information comes from.
+
+That has to do with activities and group dynamics and adult learning theories and things like that.
+
+And Domain five is evaluating the training event.
+
+So this is what you do as a technical trainer post class when you evaluate yourself and also the course
+
+design, et cetera.
+
+So those five domains come from compter itself.
+
+That's what the test is based on.
+
+And there is a section of videos for each one of those domains.
+
+As we move forward, after the domains of understanding, we're going to be focusing on the classroom
+
+performance based exam.
+
+And this is the part that kind of can make some people nervous because, of course, this is a video
+
+submission of you teaching a class practical application of the skills that you've learned.
+
+But don't worry, I'm going to break that down for you.
+
+All of the submission details, all of the things that you're going to need to perform well and touch
+
+on all the domains of understanding and your performance.
+
+So there's a section for the Teko 202 and the section for the ticket or two or three.
+
+And depending on which one you choose, you'll probably only watch one of those sections of videos.
+
+You're welcome to watch both, but you'll probably choose whether you're going to do a classroom based
+
+or virtual video submission and then you'll watch the videos in this course that correspond to that
+
+selection.
+
+!-------------------------------------------
+So first of all, what's the difference?
+
+Why are there three tests, Teko to a one, to a two to three, which one am I taking?
+
+Why do I need to take more than one?
+
+These are all kinds of questions.
+
+Maybe you're as confused as this guy up here.
+
+Don't worry.
+
+You're not the first one to have these questions.
+
+We'll go ahead and break this down so that you understand it.
+
+So, first of all, everybody will take the teko to one.
+
+This is a computer based exam, much like all the other compter certification exams.
+
+Maybe you've taken eight plus net plus security.
+
+Plus, there's a multiple choice questions, single and multiple responses.
+
+So sometimes it'll be pick the best answer.
+
+Sometimes it'll be choose all of the answers that apply or choose two answers, but multiple choice.
+
+And there is the possibility of dragon drops.
+
+Although the most recent time I've taken this test, there were no dragon drops.
+
+There's going to be a maximum of 95 questions and 90 minutes to take the test.
+
+So again, this is similar in length to other technical certifications.
+
+You have just under a minute per question, but it's plenty of time, especially after this course.
+
+A passing score of about 73 percent is required.
+
+So you'll need to get about 655 out of 900 points to pass the test.
+
+And this has to be accomplished before you move on to the second half of this certification exam.
+
+So everybody will take the Teekay 020 one, which is the computer based exam.
+
+But then after you've passed that, you'll have the option to choose either the Toyota or two or the
+
+Teko 203.
+
+Both of these are performance based exams.
+
+They are video submissions of you teaching a class.
+
+The Toyota Otu is a video of you teaching an in-person physical classroom class, whereas the Toyota
+
+of three is a recording of you teaching an online virtual class through video conference.
+
+So you'll be able to choose which one you want to do and depending on which one you choose is the certification
+
+is that, you know, the test that you choose either the two or two or the two or three.
+
+So hopefully that clears it up.
+
+Again, this is a video submission.
+
+It'll have to be between 17 and 22 minutes long.
+
+You're scored on all the criteria of the domains of understanding and you're asked to rope them into
+
+your presentation again.
+
+We'll talk about that so you know how to do that.
+
+And then you have to pass about thirty six out of forty eight to get a passing score on this.
+
+Here's what it looks like.
+
+This is from official compter resources, so again, it shows the teko to a one computer based exam
+
+and then you will add to it either the teko to a true classroom performance based exam or the Takio
+
+two or three virtual classroom performance based exam.
+
+Either one of those you pass and you come out as a plus certified technical trainer, either as a classroom
+
+trainer or a virtual classroom trainer.
+
+!-------------------------------------------
+
+Let's take a minute to review some of the official resources the competition provides that you can use
+
+to prepare for this exam.
+
+Here I am at Tilla Dog so you can put that in your browser to tag click here on certifications and of
+
+course, you're going to see us.
+
+Plus, so here on the plus page, there are some documents that will be very helpful for you to to read.
+
+You might want to print them out and read them to give you a good overview of what to expect.
+
+So after you've read a little bit here about the overview and purpose of the course, there's a section
+
+here called Plus Guidelines and Forms, and there is a form here for how to prepare for the classroom
+
+trainer and then also how to prepare for the virtual trainer.
+
+And this is a very well prepared document with a lot of information about how they score the video submission
+
+and how to prepare.
+
+So this is information that we're going to be discussing in this course, but it might be nice to read
+
+it.
+
+Also, you can print this out or I'll save it as a PDF and read this when you have a few minutes.
+
+So that's how to prepare for the performance based course.
+
+Also here, we'll have the submission forms for the video performance based submission.
+
+We'll go over that later, too.
+
+But this is how you find it here.
+
+Also, I wanted to show you this.
+
+This is get practice questions and exam objectives.
+
+If you see right here, you can just submit a little bit of information about yourself
+
+and about your job description.
+
+Choose the exam.
+
+We're looking for tickets to a one put in the country.
+
+You want to have some exam objectives and practice questions.
+
+I'm currently training plan on taking the exam one to two months, agree to the terms.
+
+And as soon as you submit that, you will have two things.
+
+First of all, the exam objectives and also practice questions.
+
+So the exam objectives we're going to be going over in a subsequent video will be going over the domains
+
+in depth.
+
+But this has come to a version of that.
+
+You can see all the five domains, some details about the course in the test itself.
+
+Again, I recommend printing this out and reading it when you have a moment.
+
+They also have some practice questions here.
+
+There aren't very many practice questions provided here.
+
+It's really not the end all for your preparation for your exam.
+
+I've included a lot more practice exams in this course as part of the course materials, but you can
+
+look at a few here to get a sense of what the questions are going to be like on the Teko to a one computer
+
+based exam.
+
+So it would be worth downloading this and practicing them as you get through the course.
+
+When it comes time to buy the exam, you can get your vouchers here.
+
+One thing I failed to discuss in the previous video, but it's important to know you're going to be
+
+purchasing two tests.
+
+As I mentioned, you taking the TKO to a one and in addition to it, either the Teko 202 or two or three.
+
+So you're going to have to purchase both of those.
+
+First of all, you'll purchase the Teekay 020 one, which is the essentials.
+
+And then when you're ready, you'll purchase the classroom trainer or the virtual classroom trainer.
+
+So that brings the cost to a little bit over 650 bucks.
+
+But remember, you will be buying two of those vouchers.
+
+So anyhow, this is a competition, Doug.
+
+This is how you can find the official resources to prepare yourself for the exam.
+
+!-------------------------------------------
+!-------------------------------------------
+Let's dive right into the MTA domains of understanding for the seat plus and this is the document that
+
+I just instructed you to download from Komp Teabag called the MTA CTT plus certification of exam objectives.
+
+And if you come down here to page three, you will see the weight at each domain of understanding receives
+
+on the exam.
+
+So all of them are at about 15 percent except for group facilitation domain four.
+
+So I tell you that just to make sure that in your preparation, you know where to focus your efforts,
+
+of course, you want to be prepared for all of these domains, but group facilitation is specifically
+
+heavy on the evaluation.
+
+So you want to make sure that you're thoroughly prepared for that domain.
+
+One is broken into two sub domains, so domain one is planning prior to the course.
+
+So this is everything that goes into developing a course, not only the course creation, but also how
+
+you plan as an instructor to facilitate a course appropriately.
+
+So subdomain one A is review learning objections and match them to learner and organization needs.
+
+So this is about the purpose of your class, how to identify why you're being asked to teach it and
+
+what the learners really need to know, and then how to build a course around that.
+
+The second subdomain is create an environment conducive to learning.
+
+This has to do with classroom logistics, everything from the temperature of the room and how to handle
+
+miscellaneous cables to technical devices to seating charts and things like that.
+
+Domain two is methods and media for instructional delivery, so this has to do with, again, methods
+
+of delivery, so different techniques for speaking to a class and teaching and also media.
+
+So presentation styles, different resources, technologies and tools to present, you know, learning
+
+concepts so the subdomains to a select and implement delivery methods.
+
+So you're going to be talking a little bit about delivering instruction, different kinds of learning
+
+theories, different kinds of learners, and how to apply different methods of instruction given the
+
+learning types.
+
+So that's a very interesting section.
+
+And then also use of instructional media.
+
+You know, how do you use slideshows correctly?
+
+How do you use video and graphics?
+
+Also in the virtual platform?
+
+What online tools are virtual tools can you use in your classroom to make them engaging for the learner?
+
+You'll talk about that.
+
+They're the third domain is instructor credibility and communications.
+
+So this is all about how to assert yourself confidently in the classroom and really how to command yourself.
+
+So this is broken up into the subdomains, demonstrate professional conduct and content expertise,
+
+how to make sure you know what you're talking about, what to do if you're caught not knowing something
+
+about a technical concept.
+
+Also, professional conduct, what you look like, how you hold yourself, posture, poise three B is
+
+use communication and presentation skills to facilitate learning.
+
+So this is where we talk about all communication and public speaking, how to use gestures, facial
+
+expressions, how to make sure that our our speech is not offensive to anybody, things like that.
+
+And then here's the big one group facilitation.
+
+So in for a establish and maintain a learner centered environment.
+
+So how do you make sure that this isn't all about you as the instructor or all about the organization,
+
+but how to really make sure that all of your teaching practices focus on the individual learner and
+
+with their goals and with their purposes in mind and their motivations in mind, use a variety of question
+
+types and techniques.
+
+So how to use different forms of questions to engage listeners and to create certain types of outcomes
+
+in a classroom?
+
+There's a number of questions about that on the exam.
+
+Forese address learner needs for additional explanation and encouragement.
+
+What to do when a student doesn't understand completely when they look lost, when somebody lags behind,
+
+when they lack motivation or get interested, and then for demotivate and reinforce learners.
+
+So again, this has to do with motivation, following up after the class, things like that.
+
+In domain five, we have evaluating the training event.
+
+Five is evaluate learner performance throughout the training event, how to develop quizzes and assessments,
+
+when to give them what types of assessments you can use and when they're appropriate.
+
+And five B, evaluate Trayner performance and delivery, of course.
+
+This is where you are reflective and you look at your own performance and your own course design to
+
+see how it worked, what you would improve next time, how to communicate that to the training organization.
+
+So those are the domains.
+
+We're going to dive deep into these, break them down, make sure that we've hit on all of the topics
+
+under discussion.
+
+But I wanted you to have an overall view of what we're going to be talking about in this course.
+
+
+!-------------------------------------------
+
+The moment of truth with technical training is when you're standing in front of an audience, when you're
+
+standing in front of your classroom.
+
+These are your peers.
+
+These are adults.
+
+These are knowledgeable, intelligent people already.
+
+And you want to make sure that you're prepared well to give something substantive and also so that you
+
+can deliver with confidence.
+
+And he's preparation prior to the course includes all these things.
+
+And the more prepared you are, the better the class you're going to give.
+
+So we don't just rest on our existing knowledge of the technical concept, but we give the appropriate
+
+attention to course development and classroom logistics to make sure that everything goes smoothly when
+
+we actually deliver the class.
+
+So domain one, we talk about how to develop a course, how to speak to an organization to find out
+
+why they're even doing the course, how to figure out what learners already know so that you understand
+
+what the knowledge gaps are.
+
+We also talk about a couple of frameworks for developing classes to make sure that they're thorough
+
+and really fleshed out before you deliver the class.
+
+We also talk about classroom environment creation, how to set up the seats, how to set the temperature,
+
+how to avoid disasters with technology.
+
+All of that is in domain one.
+
+So that's what you have to look forward to.
+
+And let's make sure that we plan our course correctly.
+
+!-------------------------------------------
+
+Transcript
+So before you can even begin developing a curriculum or planning for training, you really need to be
+
+able to answer the question, why are we doing this training at all?
+
+What are the needs that are going to be filled by this training?
+
+And in order to answer that question, you need to draw information from two sources.
+
+Number one, the organization offering the training and number to the learners that will be trained.
+
+So first of all, what need of the organization are we hoping to fill by offering this training?
+
+And second, what do the learners need to know so that they can, you know, change their behavior and
+
+be more effective in the future?
+
+So organizations can offer training for a number of different reasons.
+
+Perhaps you're working with a technology academy and they offer programs as their main source of income.
+
+So they're marketing training programs for people who are interested in getting started in it and trying
+
+to get technical certifications.
+
+So that's one possible need.
+
+But intro organizationally, it could be a matter of training employees.
+
+There could be some negligence on the part of the employee.
+
+There could be some increased efficiency that could be accomplished if employees had greater skills.
+
+But organizations often need to understand what the return on investment is.
+
+So if I'm spending money on training, I'm paying you, I'm paying the materials, I'm taking time away
+
+from productivity.
+
+For people to be trained, organizations need to understand clearly what they're getting back as a return
+
+on that investment.
+
+But these organizational needs can be varied.
+
+So just as a personal story, I worked with a training organization who was contracting with a federal
+
+agency, and this federal agency realized that some of their I.T. employees were not taking care of
+
+important tasks that affected the overall risk posture of the organization.
+
+And this had to do with compliance with federal regulations for risk assurance.
+
+And so they really needed to train their employees so that they felt competent enough to do these risk
+
+related tasks and so that the agency could remain in compliance.
+
+So that was their specific need that we had to take in mind as we were developing the course.
+
+Second, we have learner needs, so it's good to know what skills the employees already have or what
+
+skills the learners already have and then what they need to know so that you can fill in the gap with
+
+the training.
+
+What skills, knowledge, abilities do they need so that they can reach their goals?
+
+OK, so organisational needs, in order to gather this information, you're going to need stakeholder
+
+input, so you'll need to speak with executives perhaps who have their finger on the pulse of the organization.
+
+It could be H.R. department hiring staff is very aware of the skills that they're not finding new recruits
+
+and that they might need to train internally.
+
+And it could also be managers and team members.
+
+Right.
+
+So they're on the ground doing the work.
+
+Managers are very well aware that their team members don't have a certain skill and maybe even team
+
+members say, you know, hey, we don't have anyone on our team that knows how to do this or that.
+
+And that's why we need this training, needed skills for identifying gaps and understanding.
+
+You're trying to enhance competencies that are already existing so you can increase productivity or
+
+efficiency.
+
+And again, it could be emerging or future technologies that need to be trained.
+
+And again, we want to make this specific, especially if you're working in an organization that's training
+
+employees, make it specific to their day to day job.
+
+So what will they be able to take from the training and apply to make them a better employee in their
+
+current job role?
+
+And for this reason, you can't be too broad, but you have to really dial it into some specific outcomes
+
+that you're looking for.
+
+So, again, this is not just knowledge, but also application.
+
+And the difference is that knowledge is kind of informational.
+
+It's conceptual, it's about memorizing information or understanding a topic.
+
+But application has to do with an actual technical ability that you are hoping that these students will
+
+leave your course with.
+
+And this will be specific to the learner itself and their and their different job roles.
+
+Once you've had these conversations, you've sat with organizational stakeholders, you've sat with
+
+learners and you've figured out where the gaps are and you know how to address these needs.
+
+You will be able to clearly define and articulate the learning outcome for the course and the learning
+
+outcome and instructional goal, which is a high level objective of the course itself.
+
+And here's an example of one client relations management software training employees will learn CRM
+
+functionality for creating email templates, organizing a sales pipeline and integrating social media
+
+platforms.
+
+So it's clear what the training is.
+
+It's about this CRM software and it's clear what the instructional outcomes are going to be.
+
+They'll know how to create email templates, organize sales pipelines and integrate social media platforms.
+
+So that's the goal after this conversation, after you've addressed needs to be able to clearly articulate
+
+your instructional goals.
+
+!-------------------------------------------
+
+Transcript
+After you've identified the organizational and learner needs for the course and you've been able to
+
+clearly define that high level instructional goal or purpose of the class, the next step is to hone
+
+it down into specific learning objectives.
+
+And the learning objectives are knowledge, skills and abilities that the learner is expected to acquire
+
+by the end of the course.
+
+And there's a development process for how to come up with these learning objectives.
+
+And it's in three steps.
+
+We're going to talk about them now.
+
+Step number one, you take that high level instructional goal, which we talked about in the previous
+
+lesson, and then from that overarching goal, you then create a topical outline which divides the instruction
+
+goal into units or domains of understanding.
+
+And then from those topical units, you then create specific learning objectives, which are the actual
+
+tactical skills, technical skills and abilities that the learner will leave with.
+
+And these are important to be able to clearly define not only for the students, but also when communicating
+
+with the organization that's hosting the training or technical trainers that will be teaching a course
+
+that you develop.
+
+It's very important to make all of this clear because it guides a well course.
+
+So here we are with the instructional goal that we had from our previous lecture, the client relations
+
+management software training.
+
+Right.
+
+We had that high level overview, as well as just three main topics of understanding that would be accomplished,
+
+that is creating email templates, organizing sales pipelines and integrating social media.
+
+So the next thing to do would be to create a topical outline based on that high level instructional
+
+goal.
+
+So here's the instructional goal again.
+
+And now it's been broken down.
+
+So there's three high level tasks have now been created into units, unit one about creating emails,
+
+unit two about organizing sales pipelines, and Unit three about integrating social media.
+
+And then there are sub units in each one of those topical units that kind of break it down even further.
+
+So when it comes to creating email templates, for example, synchronizing with the CRM, creating a
+
+template design, inserting text into the template, this is breaking down the topics even further.
+
+And then the final step is to define the learning objectives, which are specific learning outcomes
+
+that are based on each topical unit that you created in the earlier step.
+
+So this is just breaking down one unit, just unit one about creating email templates.
+
+And you'll notice that the subtasks that we developed previously, namely synchronising email, choosing
+
+template design and inserting template text, have now been divided down even further to the specific
+
+technical tasks that the learner will learn how to do.
+
+They'll learn how to locate the email template tab in the software.
+
+They'll learn how to input their email account credentials as they're sinking the email with the CRM.
+
+And then they'll also learn how to allow the CRM to access email contact.
+
+So this is this is mind at the minut level, each specific task.
+
+But now this is very clear to anybody that's training the course or anybody that's hosting the course
+
+as to what the students will learn, what they'll come out being able to do at the end of the technical
+
+training.
+
+!-------------------------------------------
+Transcript
+As you're developing your course, you do need to take into consideration what your learners already
+
+know, you'll need to assess their current skill level so that you can design the course accordingly.
+
+For example, you may find that students are well versed in the topic and it doesn't need to be included
+
+in the training at all.
+
+Or maybe you just do a brief review.
+
+On the other hand, if you identify particular weaknesses, then you may choose to allocate more time
+
+in the class for practicing the technical skill or for opening yourself up to questions and answers,
+
+something like that.
+
+So assess first what your learner already knows.
+
+Don't make assumptions as to what they already know.
+
+It could be that, you know, if you assume that your student doesn't know anything, that you end up
+
+creating a course that is overly simplistic and then it seems like a waste of time for the learner.
+
+On the other hand, if you make your course too complicated, assume that your learner knows a lot already.
+
+Then it can be very frustrating to the student and it can be very difficult for that that matter.
+
+So there's a sweet spot there for creating a course that's going to really fit the needs.
+
+So how do you determine, you know, what your students already know?
+
+You could create a form of assessment, some sort of written form maybe where they self reflect and
+
+write down what they'd like to learn and their strengths and weaknesses.
+
+Or it could just be conversations that you have, as we mentioned before, with stakeholders, managers,
+
+team members to get a sense of of what really needs to be targeted in the course.
+
+And you may determine that some hard and fast core prerequisites are required.
+
+So this is the case, particularly in academies of technology.
+
+I worked with one academy and we offered some higher level cybersecurity certification training programs,
+
+but we didn't really like to put students in those who didn't have a basic understanding of technology,
+
+hardware, software, basic networking.
+
+So sometimes we'd suggest and even require that a student have past come to a plus before they were
+
+in the company of security plus course.
+
+So that might be the case in your training organization or with an internal training course, you may
+
+require that there's some baseline knowledge and experience that each learner has before they're invited
+
+to the course.
+
+Let's took it.
+
+Take a look at some ways to do pre course assessments, some considerations here.
+
+First of all, we all know what it's like to be in a corporate atmosphere.
+
+It can be very competitive.
+
+People don't often like to admit to the things that they don't know because they think that it'll put
+
+them at a competitive disadvantage.
+
+This isn't very conducive to education, but we got to work with what we what we've got.
+
+So create an atmosphere of of ease and trust, follow organizational protocols and be respectful and
+
+confidential.
+
+So, you know, obviously, if employees open up about things that they don't know that they can use,
+
+brushing up on, you know, be respectful of the competitive environment that they're part of.
+
+Another way of assessing skill level is to do a formal test.
+
+So this is a multiple choice or perhaps a long answer test where you ask questions that will identify
+
+what students know and what they don't know.
+
+And the purpose is not to trick anybody up or make the questions too hard, but to assess learning.
+
+So as you're developing the questions, you want to keep that in your mind.
+
+That's the purpose of the pre course exam.
+
+!-------------------------------------------
+
+Transcript
+The ATI methodology for instructional design is a commonly used life-cycle process for how to go about
+
+building a curriculum for a technical program, Addae by name is not called out in the plus exam, but
+
+a lot of the principles and fundamental concepts that are covered in ADDAE methodology do appear on
+
+the test.
+
+So it will be important that you understand those and really it does help you to create good curriculum.
+
+So as a technical trainer, you want to be familiar with the five steps of the ADDAE model.
+
+Addae is an acronym for the Five Steps Analysis, Design, Development, Implementation and Evaluation.
+
+So let's talk about these steps one by one and how they contribute to designing an effective technical
+
+training course.
+
+The first step in the ADDAE model is the analysis that we've talked about.
+
+Some of this already assessing organizational needs, assessing learner needs, assessing current skill
+
+level of your learners.
+
+But it's also good to ask yourself, you know, if this course is successful, what does success look
+
+like at the end of it?
+
+What is going to make us feel like it really accomplished its goals?
+
+And then how will that be measured to by the organization or the individual receiving the training?
+
+That's part of the analysis phase.
+
+Also, there'll be an analysis of the actual technical skills and tasks.
+
+What is the change of behavior that we're looking to accomplish in the learner?
+
+What technologies will they be using?
+
+How will it impact their day to day life?
+
+And how will workflow be improved by the technical skills that you're teaching?
+
+And then also a performance analysis.
+
+So this has, again, to do with the needs of the organization.
+
+But how will the improved learner abilities affect the organization?
+
+How will it optimize their process again?
+
+And what will this mean for a return on investment for the training organization or excuse me, for
+
+the organization that the workers will be part of in the design phase when you're actually designing
+
+the course content?
+
+There are some considerations to keep in mind.
+
+First of all, is it cost effective?
+
+So what is your budget for creating the course?
+
+You know, this will help you to know what kind of technologies you can use, what kind of materials
+
+you have at your disposal when it comes to cost considerations, too.
+
+If you are training employees that are being pulled away from their nine to five jobs, you have to
+
+really be clear to the organization as to what the cost will be in terms of man hours and how that will
+
+impact workflow within the organization.
+
+So that's to be considered when you're designing your course.
+
+Of course, you want your training to be effective, specifically based on the learning objectives that
+
+we talked about developing.
+
+And again, we wanted to be practical and to the day to day work of the learners.
+
+And when it comes to making a course effective, you also need to understand the qualifications that
+
+you will require for a trainer.
+
+So what level of expertise is required on the trainers part?
+
+So when you're sourcing a trainer for your course, you know, what do they need to know and what kind
+
+of experience they need to have?
+
+That's part of the design process, too.
+
+And then how will you make your course engaging.
+
+So focusing on learner benefits, learner, focus, learner focused education, captivating to your
+
+audience, full of interesting and exciting activities and things like that.
+
+So this will be considered in the design phase.
+
+And once you designed it, now you have to develop it.
+
+So a lot of times when it comes to development, you will create first a prototype.
+
+So this is kind of like a brief demonstration of the core style.
+
+You will discuss what kind of activities give some samples, also a summary of the course and a plan
+
+of how it will be implemented.
+
+This is usually to communicate it with organizational leadership.
+
+So they're aware of what the course is going to look like when it's fully developed.
+
+Then you'll have to actually develop the content itself.
+
+So this is media creation.
+
+This is creating a slide show.
+
+This is creating video content.
+
+This is making sure that the materials and the instructional information follows logical thought process
+
+and development.
+
+This is making sure that handouts and job ads are aesthetically pleasing, that the graphics are appropriate,
+
+that they look professional.
+
+This is all part of the development phase.
+
+And again, with testing that you have to do some quality assurance.
+
+You may have desktop publishers or graphic artists that will contribute to this work.
+
+Other media creators.
+
+You may be responsible for making sure that it meets the standards of quality that the organization
+
+has.
+
+You also might want to practice some of the activities that you plan on using, test them out, get
+
+a group of of support staff to, you know, to practice what the activity looks like, the group learning
+
+exercise.
+
+Is it feasible?
+
+Are you going to be able to roll it out to, you know, for groups of people simultaneously in one class?
+
+She might want to test that out and then also technologies, too.
+
+So if you're using some sort of projection, if you're using using some sort of interactive game, do
+
+you have it all synched up?
+
+Does it work?
+
+So in one training organization that I worked at, we used to coat and Kahu is like a game show.
+
+Everybody downloads it on their phone and, you know, you punch in as you would on a game show to give
+
+your answer and you compete for who can do it quickest.
+
+But again, you got to make sure that you know how to instruct people to download the app.
+
+You know how to project the questions on the overhead projector.
+
+So testing things out is really beneficial so you don't run into problems on the first day of class.
+
+Step forward is actual implementation of your design, so the logistics of running the class learner
+
+enrollments, which may include accepting payment from learners, classroom management and also setting
+
+up the technology in the classroom, setting up computer labs, making sure that the hardware is, you
+
+know, plugged in and functioning, that software is loaded, that all the devices are imaged correctly,
+
+etc. That's part of implementation.
+
+And then we have the delivery itself.
+
+So communicating with the learners, communicating with the organization, making sure everybody is
+
+aware of the assumptions for the learners and, you know, when they're going to start, when they're
+
+going to finish, how long it's going to take, what they're going to learn.
+
+There is some scheduling involved there with the training organization and also with the learners.
+
+And then in delivery is also the actual facilitation of the course, you know, as a trainer.
+
+And then also considerations for trainers is going to be recruiting qualified trainers that meet the
+
+requirements that you specified in the design phase.
+
+If they need some preparatory education to make sure that the trainers can deliver correctly, perhaps
+
+new technologies, proprietary technologies, you'll need to make sure that they're up to speed on that.
+
+And then, of course, you're going to have to book them.
+
+Right.
+
+If they're contracted technical trainers, this can be the case.
+
+Sometimes you'll have to make sure that your class is running at a time when they can they can give
+
+it.
+
+They can teach you.
+
+Step five, finally, is the evaluation stage, so this is how are you going to assess what new knowledge
+
+the learners have acquired?
+
+How are you going to assess their new competency?
+
+And this can be done by, you know, end, of course, exams and also performance metric analysis that's
+
+done after the course, also evaluating the instructor's performance.
+
+So hearing back from the learners and we'll talk about specific ways you can do this in a future lecture.
+
+But just like kind of the internal audit of the process, how did it go?
+
+How is our trainer?
+
+How are our materials?
+
+How is the course design?
+
+How do we think that that it all went?
+
+What was the quality?
+
+And then finally, you'll evaluate the course design.
+
+So was it logical?
+
+Did it meet the goals?
+
+Was it effective?
+
+And was it to the qualities, the standards of quality that we expect for our organization?
+
+So there you have it.
+
+Those are the five steps of the ADDAE model.
+
+It's good to review these.
+
+And I hope that you use this resource if you're ever in the position where you're developing curriculum
+
+so that you don't start a class blind or with a weak design, but you can go through the five steps
+
+and test things out.
+
+And then when you implement it, when you deliver it, you feel confident about doing it and then you
+
+can evaluate it.
+
+When you're done, you can look back, reflect on what you've done, and you can improve it for next
+
+time.
+
+And this is an excellent way to continue improving your abilities as a trainer and a curriculum developer.
+
+!-------------------------------------------
+
+
+Transcript
+Donald Kirkpatrick was a professor at the University of Wisconsin, and he is famed for his four levels
+
+of valuation model, which is an objective way to evaluate the success of a training event.
+
+There is, Mr. Kirkpatrick.
+
+So anyhow, what are these four levels and how do we apply them?
+
+Well, the first level is reaction.
+
+So what was the reaction of the learner?
+
+You might get this in by way of a feedback survey.
+
+A lot of organizations will, you know, ask the students what they thought about the training and you
+
+can get some good response from that on the part of the learner as to whether or not they felt that
+
+they learned anything.
+
+What was the course like?
+
+What was the trainer like?
+
+And, you know, you want to find out whether the learner really felt that the course was practical
+
+for them, engaging for them.
+
+Interesting.
+
+And that they left knowing something that they didn't know before.
+
+The second level is the learning level.
+
+And this has to do with actual knowledge acquisition acquisition.
+
+And you get this information from the final exam.
+
+Sometimes you can compare a post course exam with a pre course exam and you can actually have some metrics
+
+on how much improvement there was on behalf of an individual learner.
+
+So that's one form of evaluating a training event.
+
+And then there is the behavior level.
+
+So this is what was the actual change in the participant behavior?
+
+What are they able to do now that they weren't able to do before the training?
+
+And what evidence is there that they can do it?
+
+So sometimes there are practical exams or actual performance based exams.
+
+When you roll out a technical program where they actually have to do a technical task to pass the class,
+
+and that will give you feedback on the behavior level of evaluation.
+
+And finally results.
+
+What are the organizational outcomes, key performance indicators that give evidence of the fact that
+
+now students know something they didn't know before, they're working quicker, they're working more
+
+effectively.
+
+This is improving the organizational process.
+
+This is making more money for the organization.
+
+This is improving their compliance, whatever it was that their goal was, what are the results and
+
+how do we document them?
+
+So by incorporating these four levels of evaluation, you can really be thorough post course to figure
+
+out, you know, how well we did lessons learned, where can we improve and was the course of success
+
+and how can we make it even more successful next time?
+
+!-------------------------------------------
+
+Transcript
+So imagine, if you will, that you've just spent a number of months developing a wonderful course,
+
+you went through the process of assessing organizational needs, learner needs and speaking with shareholders
+
+and going through the ADI design process.
+
+And you're about to give the course and then everything changes.
+
+Organizational leadership asks you to make some significant adjustments to your course.
+
+How will you respond?
+
+It could be tempting to be frustrated, but the purpose of this lecture is to remind you to maintain
+
+your flexibility and customize ability.
+
+So there are always organizational perspectives that you may not be aware of that need to be addressed
+
+last minute.
+
+So it's important to not be so rigid in your course design or implementation that you can't respond
+
+when necessary.
+
+One way to facilitate this is to leave a little bit of a cushion room in your course design, you know,
+
+so don't cram so much information in there that that there's no room for adjusting to things that come
+
+up that are unexpected.
+
+And then also remember to be customizable.
+
+Maybe you bring a course with you no matter where you teach, you know, something that you've developed
+
+personally.
+
+But remember that there could be some custom features that are unique to the situation or the industry
+
+that you're working with.
+
+So build some customized ability into your course as you design it so that you're flexible.
+
+Remember that you're building a business relationship with a training organization.
+
+Your reputation is important after you're done teaching a course, you want to be invited back to teach
+
+that course again or invited to develop a curriculum for another course and to teach that.
+
+So cooperating with the training organization, being quick to be flexible and apply updates and implement
+
+customized ability really is going to set you apart as a very professional and experienced technical
+
+trainer.
+
+!-------------------------------------------
+Transcript
+Briefly, I wanted to talk a little bit about anticipating challenges in course design and course materials
+
+if you're working for a larger training organization.
+
+It's very possible that you are not the one who has developed the training curriculum or materials or
+
+schedule or anything like that.
+
+You may not have had any input into the design.
+
+And there is a principle that you need to remember for the test is, is that of working cooperatively
+
+with an organization, a larger organization.
+
+So, you know, this isn't the time to call out errors in materials in front of a class that really
+
+undermines the respect of the organization as a whole.
+
+Or if there is a design element that you don't like or a module that you don't like, it's not your
+
+responsibility as the trainer to alter that curriculum without the approval of the training organization.
+
+Your responsibility is to deliver that information according to the design, because remember, there
+
+could be some design factors, organizational needs, learner needs that you are not privy to.
+
+You may not have that full perspective.
+
+So it's important that you follow the design as it is presented to you and you're going to get a number
+
+of of questions about this on the exam.
+
+So basically, don't belittle the training organization, don't belittle the training materials, don't
+
+call attention to flaws in front of the class.
+
+If there is something that you really feel could be improved in the class or, you know, just something
+
+like an error in a material typographical error or a constant error, then, you know, take that as
+
+a sidebar with the organization, maybe, you know, report back to the curriculum developers to let
+
+them know that there is an edit that needs to be made and suggest it respectfully.
+
+And if a student brings this up, then defend the training organization, just be respectful, acknowledge
+
+the fact that they brought it up.
+
+Thank you for noticing that.
+
+And I'll make sure that it gets passed on to the appropriate parties, but maintain a professional atmosphere.
+
+And that way you'll really handle challenges as they come in a way that that is dignified.
+
+!-------------------------------------------
+It might be nice to think of yourself as a technical trainer that can just come on day one and deliver
+
+an excellent course and everything goes on without a hitch.
+
+But there are some logistical things that as technical trainers, we really need to give attention to
+
+to make sure that the class runs smoothly and that we're prepared on day one.
+
+For example, timing.
+
+What's the schedule of the course going to be?
+
+When will it begin?
+
+When will it and when will you take breaks?
+
+How many breaks will there be?
+
+When will you have lunch?
+
+How are the students going to get lunch if you're in a physical location?
+
+Can you give them some direction on where they can purchase lunch or how they can store lunches that
+
+they may have brought?
+
+All of this is just some logistical considerations that you need to be able to communicate, either
+
+in written form or in communications on the initial first day.
+
+There's also time zone considerations.
+
+If you're doing virtual teaching, you want to be specific about what time zone you're in and recognize
+
+that if students are in different time zones, that could affect when you choose to take breaks and
+
+lunch breaks and things like that for a physical classroom, there's also the logistics of reserving
+
+a classroom.
+
+Will it be available for the number of weeks or days that you plan on doing the course?
+
+So, you know, training can fit in conveniently in conference rooms, but then larger technical training.
+
+You know, you might need a class to be set up or a room to be set up for a full six weeks.
+
+So where is this going to happen?
+
+Is the organization OK with you taking that space?
+
+Is it going to be undisturbed by others?
+
+You know, in a in an organization with a lot going on, these are considerations that you need to plan
+
+out ahead of time if training labs are outside of the classroom.
+
+Have you reserve time in those labs?
+
+If there are learning aides or materials, textbooks, workbooks that the students need to have before
+
+day one, have you delivered them ahead of time?
+
+Have they been sent out or have they been emailed with PDF?
+
+That's a consideration to the logistics.
+
+And as we talked about meal arrangements and other outdoor activities, if something needs to be taken
+
+outside of the classroom, have you planned all the, you know, intricacies of getting the students
+
+in and out of the classroom?
+
+Make sure you get some consideration to all of these organizational things before you start teaching
+
+the class.
+!-------------------------------------------
+
+Let's talk a little bit about in-person classroom set up that is setting up a classroom for in-person
+
+technical instruction delivery, as you can see in a picture here.
+
+Here is a beautiful training lab.
+
+Everybody's got plenty of room and looks organized.
+
+It looks clean.
+
+Everybody can see the whiteboard.
+
+They're going to be able to see the instructor.
+
+I hope you have the opportunity to teach in a lab like this.
+
+The truth of the matter is that you may or may not have any control over the environment, but to the
+
+extent that you do, you want to create an environment that's conducive to learning.
+
+So when students are comfortable and undistracted, they're free to learn and focus on the material
+
+that you're presenting them.
+
+So there are ways that you can make this happen for them.
+
+You can set up the seating so that everyone has plenty of room, not only for themselves, but any bags
+
+they might bring or materials that they need to have at their desks and give them space.
+
+And you want to set up seats so that everybody has a direct line of sight, not only to you, as are
+
+teaching, but also to your instructional media.
+
+If you have a presenter excuse me, a presentation device, slideshows, if you have a whiteboard,
+
+you need to make sure that every seat in the house can see that unobstructed lighting is important to
+
+give consideration to.
+
+If the lights are too dark, people can start squinting, they can actually start getting tired and
+
+feeling of taxation without even noticing it.
+
+So it's important that you set the lights to be bright and that you that you use natural lighting to
+
+the extent that you have the ability to do that.
+
+Same with temperature 70 to 72 degrees Fahrenheit, 21 to 22 degrees Celsius is considered comfortable.
+
+If students are too hot or too cold, they'll be distracted.
+
+You're not going to be able to make everybody happy.
+
+There's always one or two that are going to be cold or hot, but, you know, be responsive to that
+
+feedback overall when it comes to the majority and try and make sure that everybody's comfortable.
+
+Cleanliness and organization also contributes to undistracted learning.
+
+So make sure that everything is neat and tidy.
+
+When you're setting up your your training space.
+
+You also need to think about your materials.
+
+So our materials already on the desk of every learner before they before they enter, are things easily
+
+accessible if there are materials that they need to access during the course of the training, make
+
+sure that's all set up before you start.
+
+And then also very important and you're going to get a lot of questions about this on the exam is doing
+
+a technology test before you start.
+
+So you want to make sure that every computer is set up with the right software.
+
+You want to make sure that your laptop can get plugged in and that you can connect to the presentation
+
+screen.
+
+You might need to liaise with lab technicians to make sure this is all set up.
+
+You want to make sure cables are not going to present a tripping hazard for your students and that they're
+
+neat and tidy.
+
+You might need to bring whatever organizational device that you have to keep cables in place, you know,
+
+so these are important considerations before you get started in a class.
+
+And here's an example of how you might set up the class.
+
+As you can see in this lecture, training style, every seat can see both the presentation screen and
+
+also the instructor as he or she speaks as another option.
+
+You have the horseshoe kind of style and that allows the chairs and the desks to be along the perimeter
+
+of the room and the trainer to sit in the middle so that ever…46558 tokens truncated…to be able to see your instructional media.
+
+You were instructed to use only one camera, which is important to again, you're not going to be doing
+
+any editing, so you need to just have one continuous video.
+
+And also, if you are having to do and you zooming if you do have a camera man or woman, make sure
+
+that your zoom is set to the widest setting.
+
+And again, that helps it to be less shaky if you're moving the camera.
+
+But ultimately, you can place the camera at the back of the room so that it shows you and your participants
+
+and you won't have to do a lot of movement with the camera.
+
+And that's a way that many people choose to do it, which is the easiest sound can be a difficult thing.
+
+The onboard microphones and cameras are are never usually the greatest quality, particularly if you're
+
+standing far away from the camera.
+
+If you have it set up at the back of the room, it would be great to use an external microphone that
+
+is of higher quality than the one that is on board, perhaps your phone or your video camera and CTT
+
+plus or Acom to recommend, if possible, to wear a lapel mic.
+
+And they are great because they limit any distracting noises going on around you.
+
+And you can contribute to this goal of limiting other noises by, you know, making sure that the AC
+
+isn't going to be too loud.
+
+I mean, sure, windows are closed so that there's no, you know, jack hammers doing construction outside
+
+or, you know, maybe making sure that the hallway door is closed so the passers by don't cause a disruption.
+
+Do what you can to limit those noises, make sure the camera is running.
+
+Don't miss any of your performance, particularly your attention.
+
+A rousing introduction because the camera wasn't on and finally enhanced the lighting.
+
+So if you know anything about video, you know how important lighting is.
+
+You could use a camera light or as much natural light as possible.
+
+And then, of course, make sure that the camera is not facing the light, but rather the light is behind
+
+the camera and shining on you and your class as subjects of the video.
+
+And you'll get the best possible recording that way.
+
+Again, if any of you have any expert tips on video recording because of your specific experience,
+
+please drop them in the comments below.
+
+But don't be overwhelmed with this.
+
+You don't have to create a marketing video.
+
+You just have to show that you can perform the objectives of the CTT plus course in a way that is not
+
+distracting.
+
+So make sure of these things and you'll do fine.
+
+!-------------------------------------------
+
+On the official CTT plus page at CompE, teabag, again under CTT plus guidelines and forms, you will
+
+find the submission forms here for Teko to to.
+
+And of course when you click this, it'll ask you to download it.
+
+We've been here before.
+
+There are four forms that you have to submit forms.
+
+See, we discuss at length in the next video.
+
+But let's just kind of look at these so you have the opportunity to preview them in this profile section.
+
+You're going to submit all of your information here.
+
+You have to put your career ID number.
+
+So you got that when you have done any other Kostia certification or when you signed up and completed
+
+your come to Takio to a one.
+
+And remember, photocopy of the score reports is required.
+
+So make sure that you include that the form B is a release form, as we discussed.
+
+That's the one where you have to grant come to your permission to use the recording and that anybody
+
+who was a participant has their name and signature and grants permission for that to be used by committee.
+
+We're going to skip forms.
+
+We'll talk about it in the next video.
+
+Those are the long answers.
+
+And then finally, we have Form D, which is payment information.
+
+Nothing too complicated here outside of your normal online payment.
+
+And at the bottom of this form, too, you have submission instructions, which we'll talk about a little
+
+bit later to.
+
+!-------------------------------------------
+
+
+Form, see, is where you provide longsword answers to questions centering around domain one planning
+
+prior to the course and domain five evaluating the training event.
+
+And of course, this planning and evaluating is specific to the 20 minute module that's recorded in
+
+the video.
+
+The great thing about this Form C is that you have all the time in the world to do a great job at it.
+
+It's not like the computer test where you have a time limit and it's not like a video test where you
+
+have to perform it well in real time.
+
+You can draft the answers and take all the time.
+
+You want to really give stellar responses and make sure that you hit all the requirements.
+
+So in each question, what's great about this is that it gives you the specific subdomain where the
+
+information that's being tested is found.
+
+So go back on those points.
+
+You can compare that to the scoring rubric that is in the submission instructions and you can just make
+
+sure that you highlight every different point is mentioned there.
+
+So it's not overwhelming here because you have an outline for you already.
+
+There are a couple things to remember on some of these questions.
+
+You have to give an answer that corresponds to the video submission.
+
+So, for example, in five here, what did you do to prepare for training this particular group of learning's
+
+learners for this specific recorded session?
+
+If you adapted the material or made adjustments, explains what you did and why, if you did not need
+
+to adapt to explain why this is not necessary.
+
+But here's the point.
+
+Note your response to this question must match what scoring judges observe on the recording.
+
+So, you know, make sure that the two elements of your submission are not out of harmony.
+
+Refer to something that you've actually done in the video submission.
+
+And the thing with this is it can also give you some more information on what to include in the video
+
+submission.
+
+If you know you're going to be either calling it out in the domain one planning section or the evaluating
+
+the training or section of Form C, then you can make sure that you perform it in a way that it's clear
+
+to, you know, connect the dots.
+
+So remember that they're after domain one.
+
+Of course, we have the training evaluation.
+
+Same thing here.
+
+Make sure as you see here in number one, your response to this question must match what's scoring.
+
+Judges observe on the recording.
+
+And as we learned in the scoring objectives, it's good to put even timestamps on there.
+
+You can say, you know, at minute one, one minute, 30 seconds, for example, you'll notice that
+
+the instructor did this and you'll know that the student did that.
+
+And it demonstrates this point or that point.
+
+Be very specific and take your time with these answers.
+
+You can edit it right here in the document and make sure that you include all the points and that you
+
+get a great job.
+
+There's no reason why you don't just get an excellent job of this because you have all the time to get
+
+it right.
+
+!-------------------------------------------
+
+
+I'd like to redirect your attention to this portion of the how to prepare for the video submission document.
+
+This is directly from Komp BTIG again.
+
+And this section is called Performance Based Exam Recording Checklist for Quality Control.
+
+Now, quality control is often done after something, an initial draft of something is created.
+
+However, my suggestion to you is to ask yourselves these questions before you begin shooting your video,
+
+because ultimately, if something is missed, you don't have to call all your friends and colleagues
+
+again to do a second recording.
+
+That's going to be a bit embarrassing, but you can read over this list as a checklist while you're
+
+planning the video event and making sure that you've really checked the boxes.
+
+So remember that this is here and please review it.
+
+There are some excellent suggestions at the bottom about making a backup copy, not all, not only of
+
+the video, but also of all the documentation.
+
+In the event that something goes wrong with your initial video submission, you do want to be able to
+
+perhaps reuse the forms and the answers that you've created in the past.
+
+Hopefully you won't have that problem, but make sure there's a backup of everything so you don't lose
+
+your work and refer to these questions here in the quality control of your video.
+
+!-------------------------------------------
+
+And just because I want this to be a seamless as possible for you to upload your video submission,
+
+I thought we could just go over the submittal instructions and what it looks and feels like.
+
+I don't want you to be overwhelmed by the technicalities of uploading your video.
+
+So this information right here is taken again from the submittal instructions from come to your bag
+
+that you downloaded.
+
+It's on that same file under Form D, and as you can see, you have two options to submit your files,
+
+the documents, the written documents and also the video file.
+
+You can send it in by mail if that's your style, or you can do an online upload, which I'm guessing
+
+most of you will choose to do at CTT submission dot com.
+
+So if you go to CTT submission dot com, it will look like this.
+
+And when you do this, make sure that you are ready and prepared with the information from your teko
+
+to a one.
+
+You will have to put in some information that you received on the printout for successful completion
+
+of that course.
+
+You also are going to need your company ID number and some personal information.
+
+You'll set up an account, you'll perform an email validation, and then you will be prompted to submit
+
+all your videos on this site.
+
+So exciting.
+
+Once you get that done, you're just waiting for a response from the evaluators ready to become a certified
+
+technical trainer.
+
+!-------------------------------------------
+
+Let's briefly review what we discussed in this Section seven, everything you need to know to submit
+
+for the performance based classroom instructor TA to it's important that you watch all these videos,
+
+review all the submission instructions from Compter before you hit that record button on your video
+
+recording.
+
+You're going to select five or more friends and get them all in a room and set everything up.
+
+You don't want to get it wrong because it's very difficult to go through that process again.
+
+So make sure that you've created a checklist, created a nice outline for your course.
+
+You've practiced it out loud a number of times and you feel confident so you can get it right the first
+
+time.
+
+Again, my suggestion is perhaps to block off an hour of your friend's time so that you can do a dry
+
+run.
+
+And then the real thing, each video has to be about 20 minutes.
+
+So you should have plenty of time to do that.
+
+We talked about the evaluation criteria, criteria of each domain.
+
+Again, make this kind of checklist and be sure that you are specifically doing these things when you
+
+perform.
+
+You may need to be a little bit more deliberate about this than you normally would be if you were teaching,
+
+because you're trying to give evidence of all these points in 20 minutes rather than over the course
+
+of an entire training event.
+
+But be specific and then in particular form, see where you give those long answers.
+
+Remember, you have all the time in the world to get that correct.
+
+You can go back and identify the subdomain points and how they want to be evidenced in form.
+
+See, and, you know, specifically call out all the points that will be evaluated and then also be
+
+specific about where they show up in your video recording.
+
+So use specific time markers and connect them to the learning objectives and connect them to the evaluation
+
+criteria that you are demonstrating.
+
+So everything you need is here.
+
+And if you've made it this far, congratulations, because all that's left is, is to just wait on that
+
+submission, to come back from the evaluators and you'll become a certified technical trainer.
+
+So move ahead now to Section nine.
+
+And I've got some parting words and some last minute prep that you can do before you start your tests.
+
+!-------------------------------------------
+
+So now that we've covered all the domains of understanding for the plus body of knowledge, it's time
+
+to talk about how they apply to the performance based exam.
+
+In this case, the TECO two of three, the virtual classroom trainer performance based exam now is important
+
+to remember that there's a couple of things involved with submitting for this certification.
+
+Number one, you're going to actually include a video of you teaching a class on a virtual platform.
+
+But you are also going to be submitting some forms.
+
+And one of the forms in particular Form C, which we will discuss at length, actually has some questions
+
+that you will provide narrative long answers to the discuss how you've applied some of the bodies of
+
+knowledge towards the preparation and evaluation of the course that is seen in the video.
+
+So there's a couple of things involved here.
+
+CTT plus resources from comp to lead you through the process quite well.
+
+I'm going to direct you to where you can find those resources and, you know, make sure you have everything
+
+you need for submission.
+
+So we'll start off with those, come to your resources and we'll talk about how you can prepare yourself
+
+to be on camera.
+
+And then we're going to go over all of the specific domains of understanding and how you can give evidence
+
+of those when you're recording your video.
+
+How do you really weave all of those evaluation criteria into your performance to make sure that you
+
+check all the boxes and get high marks on every domain?
+
+We'll talk about some technical tips to make sure that your recording is quality.
+
+And then we will go over the forms that you'll submit and in particular that form.
+
+See, we'll talk about how you can provide answers to those questions that give evidence that, you
+
+know, the domains of understanding.
+
+And then I'll even show you where online you're going to submit the recording and the forms just so
+
+that there's no surprises there.
+
+So let's dive into the teko two or three.
+
+!-------------------------------------------
+
+So first of all, let's look at the information that is provided by committee itself, their official
+
+resources, and there's two things we're going to talk about in this video.
+
+Number one, it is the instructions on how to prepare for the video submitting.
+
+And then second, it is the forms that you are going to submit.
+
+And both of these are provided a tag.
+
+So, again, here we are, come to a big hover over certifications and go to CTT Plus and you will arrive
+
+at the informational page that we've seen before.
+
+Scroll down a bit and you'll see the section called CP2 plus guidelines and forms.
+
+And here is the the two forms I just mentioned, CTT plus virtual trainer, How to Prepare and CTT,
+
+plus virtual trainer Teko two or three submission form.
+
+Let's look at the first one.
+
+And this is a well developed document from Compter that gives you all the information that you'll need
+
+to prepare for the video portion of this exam.
+
+There's some information on the, you know, general information about the exam, how to plan and prepare
+
+some of the technical information about your recording.
+
+All of this we're going to discuss in the videos.
+
+But I do want to bring your attention now to the scoring guide.
+
+And on page nine, they give you an indication of how they're going to score, which is really important
+
+for you to know, because, you know, that's what you want to keep in mind when you're actually performing
+
+the video and they show you that they have a scoring scale of one through four.
+
+So what they're going to do is take each of the domains.
+
+There's five domains, divide them into the subdomains.
+
+So overall, there's 12 total subdomains.
+
+And then they're going to give you either a one, two, three or four on each of the subdomains, depending
+
+on how you perform.
+
+And then they go on to tell you exactly what they're looking for in each subdomain.
+
+So it's broken down very nicely for you.
+
+For example, let's scoot down here to domain two methods and media for instructional delivery.
+
+The first subdomain.
+
+So Domain 2A is the selection and implementation of instructional methods.
+
+And in order for you to get four points here, they show you the rubric.
+
+They tell you exactly what you need to do to get four points.
+
+So you can use this as a sort of compliance matrix to make sure that you're touching on all the points
+
+you're going to be graded on.
+
+It is important to remember that domain one and domain five domain one is planning prior to the course
+
+and domain five is evaluating the course.
+
+These are two domains that you can't show in real time during the video of you conducting your class,
+
+because there are things that happen before and after the completion of a course.
+
+Those are going to be evaluated based on the long responses, the narrative, written responses you
+
+give in form C and we'll talk about later about how to do that.
+
+There's a video on form C, but let me just show you how to find that one.
+
+That is form C.
+
+So moving on from this, How to Prepare document will go back to the informational page.
+
+And here we have the plus virtual trainer Teko two or three submission form.
+
+Click on that and download it.
+
+When you open that document, you'll see these forms here and there's four forms.
+
+Form A, form B, form C and form D, form A is just where you put in your information.
+
+You have to include a photocopy of the score report from your computer based TECO to a one.
+
+And you also have to give some witness statements, people that can attest to the fact that that's you
+
+in the video.
+
+So remember, you're going to have to do some of that.
+
+And also Form B is the release form where everybody that's in your video, all the students that you
+
+choose, give consent for you to video them and also to use their video for the purposes of this certification.
+
+That's OK, then we move to form, see which we're going to speak at length, but this is where you
+
+give the long answers to some questions, particularly covering domain one and five.
+
+How did you plan the course and how did you go about evaluating the course and then informed there's
+
+some payment stuff that you have to take care of here and some submittal instructions.
+
+So those are the two forms that are provided to you from Tilla on the website.
+
+Please make sure that you go there and review those before you get too far into the actual planning
+
+and recording process for your submission video.
+
+!-------------------------------------------
+
+As I mentioned in the previous video, you're going to be scored on specific criteria for this training
+
+event, so it's important that you plan for it and build all of the training criteria into this specific
+
+module that you're going to be recording.
+
+Don't think that because you have a lot of experience as a teacher or a technical trainer, you can
+
+just get in front of a camera and do what you normally do and be fine.
+
+This does have to be specifically designed for the purpose at hand.
+
+So how can we do that to begin with?
+
+Choose your content wisely.
+
+It needs to be clearly professional and sufficiently complex.
+
+This is a technical training certification, so your topic needs to be technical.
+
+That being said, I did recently see a video that passed the evaluation of a teacher teaching her audience
+
+how to choose the correct jean style for their body type.
+
+It's not an overly technical topic, but it worked.
+
+So you don't have to impress anybody with your technical skills, but make sure that you are able to
+
+give evidence of all of the evaluation criteria.
+
+You'll need to structure this module with a clear beginning, middle and end and interest, a rousing
+
+introduction, presenting new material, having your students practice with the group activity, reviewing
+
+and then closing the module as if it was a real world training event.
+
+Let's talk about setting we're all familiar with, you know, doing Web streaming and video conferencing
+
+from home.
+
+So this shouldn't be a shock, but just make sure that you choose a quiet room, that it's well lit,
+
+that anything showing behind you is neat and orderly and or use a green screen and you get to choose
+
+whatever virtual platform you want.
+
+So it might be Zoom or teams or Uber conference or, you know, any other software that you choose for
+
+this event.
+
+Just make sure that when you're recording, you have everything visible in one screen and that means
+
+the trainer yourself, the faces of all of your participants and the training materials.
+
+And that's usually easy to set up in one window.
+
+So you can see it all in one place, but you are going to need that for the evaluation.
+
+You need to have at least five people in your class and they all need to be visible and they all need
+
+to be engaged, so they all need to have, you know, actual interactions in the class so you can choose
+
+your friends or colleagues for this, even come to you.
+
+Doug says you can do that.
+
+Just make sure there are people that have enough of a technical background to where they can comprehend
+
+the information and, you know, contribute significantly to the course.
+
+My suggestion is to lock them in for about an hour and a half.
+
+That allows you to maybe do a dry run of the 20 minute recording and then, you know, hit the record
+
+button the second time and then also recognize that your participants are going to have some questions
+
+about what's required of them.
+
+So make sure you give them a heads up on what you need them to do to be involved.
+
+You might even give them some questions or comments ahead of time that they, you know, samples that
+
+they might use during the class and make sure this is an authentic event.
+
+You know, your students should really be learning something new and not overly artificial or contrived.
+
+Of course, this is stage to a certain extent, but it doesn't want to look that way to the evaluators.
+
+And it needs to be about 72 to 22 minutes.
+
+And I don't mean about I mean, it needs to be between 17 and 22 minutes.
+
+If it's less than 17 minutes, it's rejected.
+
+And if it's over 22 minutes, the judging will stop after minute 22.
+
+So, you know, they're not going to keep scoring after that.
+
+So with some preparation, I shouldn't be a problem to keep it to the timing that you need it to be
+
+equipment use, the best possible equipment you have at hand.
+
+There's no need to be going out and buying a lot of high quality technology for this.
+
+This is not a test on your abilities as a videographer, but as a technical trainer.
+
+So the webcam on your PC will work just fine.
+
+Remember, there's no editing involved, so you are allowed one break if you need to stop the recording
+
+while everybody practice is a skill or something.
+
+If that's the case, make sure that you say out loud that you're going to be pausing the recording so
+
+everybody can practice this new skill, cut the recording and then, you know, when you bring back
+
+you can say again, all right, everybody is now had a chance to practice that skill and you move on.
+
+But beyond that one allowable break, there should be no other editing.
+
+So, you know, no graphics, no transition effects, anything like that.
+
+It needs to be raw for the evaluators and take your time to develop your skills.
+
+You know, if you need to practice this at home a few times in front of a camera to make sure that you're
+
+not doing anything distracting with your hands while you're teaching and that, you know, you're poised
+
+as an instructor, things like that, make sure that you build that up.
+
+So you really feel confident before the day of presentation.
+
+Understand the CTG plus domains very clearly have an outline so that, you know, you've touched on
+
+all of them.
+
+And we'll talk more about how to weave them into your recording in the upcoming videos.
+
+!-------------------------------------------
+
+All right, so now we're going to talk about how to apply each of the domains of understanding to the
+
+video submission itself.
+
+Now, remember, each of these domains is divided into subdomains.
+
+And I'm going to show you how to give evidence that you know that in the video.
+
+So in domain one planning prior to the course, a lot of this material is actually going to be in the
+
+long answers that you provide on form C, you're going to give some comments about how you plan the
+
+course and and how you assess the learner needs, et cetera.
+
+But there are some things that you can do while the camera is on to show that you understand these topics.
+
+So once a review of organizational needs and learner backgrounds in relationship to the course objectives,
+
+you can say a couple of things during the class, maybe in just one or two sentences that touches on
+
+the subdomain.
+
+For example, you might say, I know you're all in the technology industry, so I know that you're going
+
+to find this information really beneficial in your job roles, or you can call it a specific learner.
+
+You know, Mr. Jones, I know that you perform in this role and I think you're going to find this or
+
+that very beneficial to your job functions or make some comment about how you have tailored this particular
+
+program to the individuals in the class.
+
+Any brief comment like that will take care of this subdomain.
+
+In one be the instructional environment in relationship to learning objectives, confirm the logistics
+
+of the class, you know, let them know when it's going to start, when it's going to break, when it's
+
+going to conclude, how long it's going to be.
+
+Just a couple comments up front.
+
+Confirm the student comfort.
+
+You know, make sure everybody, everybody all set.
+
+Everybody got what they need.
+
+You got your webcams on and and everybody comfortable.
+
+You can explain how you have created the virtual classroom environment in a way that's conducive to
+
+learning.
+
+So you might just call out some of the features.
+
+You know, I'm going to be presenting this with my screen.
+
+I'm going to be here.
+
+This is how you can use the comments window if you like, et cetera.
+
+So just specifically, call those out in a couple of sentences.
+
+Don't spend a lot of time on it, and you will have taken care of domain one.
+
+
+!-------------------------------------------
+
+Domain two is methods and media for instructional delivery and in subdomain to a selection and implementation
+
+of instructional methods, you need to show that you can move seamlessly from one instructional activity
+
+to the next.
+
+So, you know, maybe you're lecturing for a few minutes and then you move seamlessly into question,
+
+answer or stimulating a group discussion and make sure that you have activities that are kind of designed
+
+for everybody, whether it's the auditory learners, by means of a lecture, the visual learners by
+
+means of a video or some activity where the students are involved and you use anecdotes, stories,
+
+analogies and humor appropriately in to be this is important the way that you use the instructional
+
+media in the virtual classroom.
+
+How comfortable are you with the virtual classroom?
+
+You need to make sure that you practice this ahead of time, that you can call up your materials very
+
+quickly.
+
+There's no lag time when you're showing a video or a slide that you can seamlessly work between you
+
+sharing your screen and students sharing their screen if you choose to do it that way and also demonstrate
+
+and confirm understanding of classroom tools.
+
+So if you're going to use the whiteboard, if you're going to use the comments and questions, paying
+
+any of those tools that come standard on these video conference software, make sure that you have explained
+
+how to use it.
+
+And also you've got some sort of confirmation from the students.
+
+So, you know, if you guys have questions, please feel free to drop it in the questions, the comments,
+
+pain.
+
+Can everybody show me that they know how to do that?
+
+And, you know, you accept a comment from students one, two, three, four and five.
+
+Hey, I'm here.
+
+I know how to use the comments section.
+
+So give some evidence about that and make sure that you know how to use these tools.
+
+If it's going to be too complex, then, you know, you might want to make it a little easier on yourself.
+
+But by all means, use your instructional media smoothly and don't allow there to be any lag time while
+
+you are switching to slides or videos, etc..
+
+!-------------------------------------------
+
+Domain three is all about how you present as an instructor, instructor and credibility and communication,
+
+the first subdomain 3A is instructor delivery competence and content expertise.
+
+And the main principal that's called out in the instruction guidelines is that you offer unique responses
+
+to all the students in the classroom, particularly in the virtual classroom.
+
+So you have consistently positive interactions with all of the students and that you're confident and
+
+poised.
+
+So if there's any kind of issues with the software, again, with some of this technology, it can be
+
+a bit unpredictable.
+
+But you don't let it frazzle you.
+
+You just keep moving, address the issue and carry on.
+
+And that when when people make comments or questions, you identify them as individuals and you give
+
+unique responses.
+
+So this is particularly important in virtual classroom so that people know that they're being identified.
+
+So you might vary the way that you respond or the way that you classify information based on the needs
+
+of the students and the specific comment from the specific student.
+
+So be sure to show evidence that you're treating everybody as an individual and then in theory, be
+
+instructor communication and presentation skills.
+
+This has a lot to do with your clarity and pace, and they mention this quite a bit, that there's some
+
+modulation of your tone, you're going up and down and that you are not speaking too quick and you're
+
+also not speaking too slow and that you're natural.
+
+Even in front of the webcam, you still want to minimize any distracting behavior, you know, touching
+
+your hair or fiddling with a pen or something.
+
+And you want to be coherent in your transitions when you move from activities and if you're bringing
+
+attention to resources or training materials, make sure that you, you know, give everybody a heads
+
+up of what you're doing.
+
+OK, now I'm going to share this video or now I'm going to share this document, which you can find
+
+in your resources on page such and such.
+
+Be very clear about those transitions.
+
+And it's also mentioned that you need to have the artful use of a pointer.
+
+So as we know, the pointer can be a helpful tool to bring attention to a topic, the artful use of
+
+a pointer.
+
+One way that you can do this, I'm not showing a good example, but you can increase the size of the
+
+pointer icon and have it not disappear when it hovers.
+
+You can even change it to the little pointer icon.
+
+So those are some creative ways that you can use the pointer to make sure that you're bringing out the
+
+main points.
+
+!-------------------------------------------
+
+As you recall, domain four is where over 40 percent of the evaluation criteria comes from on the exam
+
+group facilitation.
+
+So make sure that you give some real focus to these slides and also to the preparation document the
+
+content gives to make sure you're checking all the boxes.
+
+So in 4A, you'll need to establish a learner centered environment.
+
+So you need to clearly link the objectives to activities and content throughout the list.
+
+This means that you're constantly reminding the students why it's important that they're learning what
+
+they're learning and also to be clear about what the objectives are.
+
+So the beginning of the course, you give a preview as to what they're going to learn and the, you
+
+know, behavior change that they will accomplish by the end of the course and then continue to highlight
+
+these so students know the main points and continually try to involve the learner.
+
+So don't let any of the participants lag behind or, you know, start getting quiet throughout the whole
+
+course so that they're not, you know, involved in the group activities.
+
+And you also want to direct attention with your words and with your pointer.
+
+So particularly in the virtual classroom, you can't point with your hands or use descriptive gestures.
+
+So you are going to have to talk through people, you know, as they access whatever you're trying to
+
+bring their attention to.
+
+So, you know, take a look at the top right of the screen.
+
+That's an example of how you use your voice to be the eyes of the participants and then also use your
+
+pointer skillfully.
+
+We talked about that, how to change it so that it doesn't disappear and increase the size.
+
+You can do that in the settings on your PC so that, you know, you really highlight visually what it
+
+is that you are bringing attention to.
+
+OK, and also in the way that you use activities, make sure that they are related to the focus of the
+
+learning objectives.
+
+So activities are great, but they do need to be used purposefully, particularly to highlight the learning
+
+objectives.
+
+All right.
+
+In 4B, you're going to promote a learner and promote learner engagement and participation.
+
+So make sure using open ended questions, you don't want questions that can be answered like a fill
+
+in the blank.
+
+That's just a one word answer.
+
+But require your students to give some explanation and then probe a little bit to really assess whether
+
+they're learning.
+
+You can use that by means of follow up questions and repeating what the what the student said to you
+
+and then asking them another question to clarify and also make sure again that you involve all the learners.
+
+Everybody has participation and use whatever virtual tools are at your disposal to confirm understanding,
+
+particularly when you're moving on to another topic.
+
+Does everybody can everybody see this?
+
+You can ask and then you can ask everyone to put a thumbs up in the chat window, for example, and
+
+then you can verbally confirm, all right, I'm seeing a thumbs up from from everybody.
+
+So that's a great way to make sure that you're involving everybody, use their specific names to usually
+
+in these virtual chats, everybody's name is in the corner of their screen.
+
+So make sure that you you address them by their names.
+
+And when they make a contribution, you're showing your appreciation by means of their name in Forese
+
+assessment of learners needs for additional explanation and encouragement.
+
+So you're consistently monitoring the learner behavior to see if they're understanding.
+
+So if they're making a confused face or they look like they're drifting off, you're kind of watching
+
+and then you're you're calling on them or you're asking if anybody needs clarification or even checking
+
+in with individual learners.
+
+And then if they do need clarification, they don't understand.
+
+You can quickly re-explain something in a different way, using different words that adds clarity to
+
+your initial explanation.
+
+So this is just an interactive response throughout the course of the module.
+
+And if you're using a chat window and if you've explained to the students that if they have questions,
+
+they can drop them there, you know, call it out specifically.
+
+OK, Mrs. Smith or Mary, I noticed that you left this question in the comments section.
+
+So let me go ahead and address that.
+
+You ask this.
+
+So call out those tools to to show that you know how to manage the virtual environment well.
+
+All right.
+
+And finally, motivation and pause.
+
+Of reinforcement of learners continue to connect what you're teaching to the needs and goals of the
+
+learner.
+
+We talked quite a bit about learner motivation, whether it's getting a new job, performing well or
+
+using technology to make their lives a little easier.
+
+Make sure that you remind them from here, you know, here and there in your discussion of why it's
+
+important that they pay attention and motivate the learners by commending them.
+
+And as I mentioned before, specifically using their name.
+
+So, you know, thank you, Jim, for making that comment or thank you, John, for sharing your screen
+
+and showing us how you did that.
+
+You know, this is great positive feedback.
+
+Just a simple, great job.
+
+You know, thanks so much for bringing that up.
+
+Will give evidence that you're creating a positive learning environment.
+
+!-------------------------------------------
+
+Domain five is evaluating the training event now, five, be the second part of this really takes place
+
+on form.
+
+See, that is when you provide the long answers there to some of the questions that are posed to you
+
+as the instructor.
+
+But five A is definitely something that happens in class.
+
+So five is evaluation of learner performance during and at the close of the instruction.
+
+So make sure that you have your students share their screen from time to time.
+
+If they are performing a technical test, you need to be able to see it in an actual classroom.
+
+You would be walking behind their computer screens and checking that everybody knows what they're doing.
+
+But in the virtual setting, you need them to share their screens and then you can make comments on
+
+what they're doing while they're practicing, you know.
+
+Oh, Mary, I noticed you did that very well.
+
+Thank you.
+
+Or Jim, you know, great job implementing this piece of instruction, etc..
+
+And then you're specifically asked in order to get four points to implement a final activity where you
+
+evaluate performance of a shared application.
+
+So this is an activity where they will have to perform it and you will have to watch them do it and
+
+give some feedback.
+
+So make sure you're familiar with the technology.
+
+Make sure you know how to direct the students to share their screen.
+
+And you can do that seamlessly in order for you to pass this virtual trainer certification five B again,
+
+this is based on your long answers from form C.
+
+We'll talk about that in a little bit, but you're going to be evaluating yourself and your course design
+
+and it is important to be specific.
+
+So when you say that you did this or did not do that, make sure you give time markers in your video
+
+where you specifically highlighted that skill so that the evaluators know that you really did take a
+
+look and reflect on your performance.
+
+!-------------------------------------------
+
+When it comes to selecting your participants, you really have a lot of control over who you will use.
+
+It's up to you.
+
+The CTT plus official instructions say that you can use friends and colleagues.
+
+So whoever you feel that you'd like to use, you will need at least five people.
+
+And it's good to really prepare them a little bit about what's expected.
+
+Remember that they will all have to submit their signatures for that little waiver that says that they
+
+give you permission to record them during the class and also to submit the recording for the purposes
+
+of the video exam.
+
+But, yeah, they're going to have some questions as to what's going on.
+
+So just be upfront, let them know that the recording is for the SeatGeek Plus examination and that
+
+you have to give a sample instruction for 20 minutes, make sure that you lock everybody up at least
+
+for an hour so that you can do a dry run.
+
+And then the actual recording, if there's a little bit of prep work, you might want to, you know,
+
+give yourself some extra time so that you're not inconveniencing everybody.
+
+And likely everybody will want to know what do I have to do during the class?
+
+And so depending on the nature of what you're teaching, usually probably they just come with a blank
+
+slate, ready to participate in some training.
+
+But, you know, if you're teaching a very technical topic, you do, of course, want to include people
+
+that will at least have a basic understanding of the industry that your topic is related to.
+
+So if it's completely over the heads of one of your participants, well, it's going to be hard to show
+
+learner engagement and that you've taken in the needs of the students, et cetera.
+
+So make sure that you choose the appropriate people.
+
+And then, of course, it's OK to some, you know, stage some of the questions so that you can show
+
+that you're interacting with the audience.
+
+And so for those who are willing to contribute in that way, you can plan that ahead of time.
+
+But again, you have some flexibility with this.
+
+So make sure you feel comfortable and the people that you are inviting to be in your video submission.
+
+!-------------------------------------------
+
+Let's talk about some of these recording tips that are provided by compter again, this isn't a test
+
+about your ability to do Web streaming, but you do want to make sure you're providing a quality video
+
+that the evaluators are not distracted in any way by a lack of professionalism.
+
+So No.
+
+One, stabilize your webcam.
+
+This may not be a problem if you're using a laptop, if you're using an external device, just make
+
+sure that you know, it doesn't move around or it doesn't kind of get wobbly if you nudge the desk,
+
+et cetera.
+
+If you use a white board application as part of your virtual classroom software, be sure to write legibly
+
+so that everybody can see what you're writing.
+
+Use only one camera.
+
+So no fancy streaming work here.
+
+Just one camera pointed at your face is all that is required.
+
+And you probably know as well as most do that the audio coming through your PC or from some webcams
+
+cannot be the best quality.
+
+So if you've noticed that the audio is not clear, you might use an external mic if you have one.
+
+A lapel mic is great.
+
+Or, you know, if you have some sort of condenser.
+
+Again, no need to go out and buy new materials, but just check that the audio is coming through clear
+
+and limit distracting noises.
+
+So, you know, make sure that nothing's too loud in your room, that the fan isn't making noise, that
+
+nobody's mowing the yard outside your window.
+
+There are no dogs barking or doors closing.
+
+All of this can be a little distracting.
+
+So find a time and location that is going to be quiet and make sure that your software is recording
+
+so, you know, you wouldn't want to get halfway through your performance and realize you hadn't hit
+
+the click.
+
+It hadn't clicked the record button and practice that a couple of times and just make sure you're getting
+
+the output that you want that you can hear and that you can see everything that you need to for your
+
+recording and enhance your lighting.
+
+That is big for Web streaming, particularly if you don't have a lot of good lighting in the room that
+
+you're using.
+
+You know, you can get a very simple ring light from Amazon for less than twenty dollars.
+
+And it makes substantial difference to the quality of your video.
+
+So you make sure that you position yourself so that you're getting the best quality possible on your
+
+video.
+
+!-------------------------------------------
+
+All right, let's briefly review again the forms document and again forms A, B, C and D. We're going
+
+to talk a little bit more about form see in the next video.
+
+But Form A is just your profile where you give all of your information.
+
+Again, there is this Tilla career I.D. number.
+
+If you've taken a compter exam before, you will already have one of these.
+
+And of course, at this point, you've already taken the come to a teko to a one.
+
+So you will have been given a come to your career ID number.
+
+Then also you are going to be submitting a photocopy of your come to your TECO one and you'll have to
+
+confirm that you passed that first on following that is witnesses who states that you are the trainee
+
+in the recording so they perhaps can audit this.
+
+So, you know, obviously you're not going to do anything fraudulent here, but you do have to provide
+
+some witnesses to that.
+
+There's a release form for all of your participants and you're going have to email it to them.
+
+And you're going to have to give some information there that you have received back their email consent
+
+form to use their video in your submission.
+
+Moving on, we get to form, see go to the next video for this one.
+
+So I'm just skip past it and move down to form D, which is payment.
+
+And of course you will submit your payment information.
+
+And then so here's the information on how to upload, which will go over.
+
+But just at the beginning, you know, make sure that you're recording in the right file format before
+
+you get too far into this process.
+
+!-------------------------------------------
+
+The great thing about form see as part of your CTT plus exam is that you have all the time you need
+
+to get it right, unlike the computer based exam, when you are, you know, under a time restraints
+
+and obviously the performance based video exam, when you know you've got the camera on you form, see,
+
+you get to take you take what time you need.
+
+You can double check the requirements and you can go back and do a couple of drafts to get it right.
+
+So again, all of the questions here are particularly focused on subdomain one A and one B. That is
+
+domain one because it has to do with planning prior to the course and also domain five evaluating the
+
+course post course.
+
+So you're going to give some answers to this.
+
+You can go to the subdomain one A requirements in the comp tag document and make sure that in the answer
+
+that you provide, you've done exactly what it says in that document and there's no need to lose any
+
+points here.
+
+It is, of course, a reminder that you are going to have to give answers that correspond to the video
+
+you're submitting.
+
+So, for example, you'll see a note on this one.
+
+Your response to this question must match what scoring judges observe on the recording.
+
+So you can't say that you plan something and then not show evidence of it in the recording.
+
+Same with evaluation.
+
+You can't say you did something and then not show it in the recording.
+
+It does have to be sort of real life situation here.
+
+And then, of course, as I said, the second part is evaluating the training event.
+
+And repeatedly, comedia content does require that you give specific references to the recording.
+
+So my suggestion is to put timestamps as to when you perform a certain skill or instructor behavior
+
+so that the evaluators can correspond your long answers to the video itself.
+
+!-------------------------------------------
+
+Now in the how to prepare for the Tokyo two of three document from committee, there is this nice list
+
+of questions that you can ask yourself for quality control.
+
+Now, when we think of quality control, we often think of something that is done after you've created
+
+an initial draft to make sure that there is a standard.
+
+However, I wouldn't suggest that you're doing it.
+
+Do it in that order after you've gone through the preparation and the logistics of getting all your
+
+friends and colleagues together to record an event you don't want to, you know, notice that you've
+
+missed out on some quality control issue until after you've done all that work and have to do it again.
+
+Right.
+
+So my suggestion is that you read over these items as you're preparing.
+
+Make sure you watch all the videos in the section that you read over these quality control items and
+
+read all the literature from competition so that you don't have to do things twice.
+
+However, that being said, if after you've done a recording, you find that it is clearly not going
+
+to fly, that you are not going to get a passing score because you just know you have not touched on
+
+the items like you should have, well, then you don't want to waste the money submitting something
+
+that you know is not going to pass.
+
+So if that is the case, you have to do a little bit of cost benefit analysis and risk assessment and
+
+determine, you know, whether you're going to, you know, call all of your friends again and rerecord
+
+the video.
+
+So that's going to be up to you, of course, to hear suggests maybe get somebody else here at the bottom.
+
+You'll notice this suggestion, maybe get somebody else to view the recording and assess it, create
+
+a backup, make sure you don't lose it.
+
+But again, my hope is that you will really put the preparation in.
+
+Look at all these resources plan very carefully and only have to do the recording once.
+
+!-------------------------------------------
+
+And just because I want this to be a seamless as possible for you to upload your video submission,
+
+I thought we could just go over the submittal instructions and what it looks and feels like.
+
+I don't want you to be overwhelmed by the technicalities of uploading your video.
+
+So this information right here is taken again from the submittal instructions from come to your bag
+
+that you downloaded.
+
+It's on that same file under Form D, and as you can see, you have two options to submit your files,
+
+the documents, the written documents and also the video file.
+
+You can send it in by mail if that's your style, or you can do an online upload, which I'm guessing
+
+most of you will choose to do at CTT submission dot com.
+
+So if you go to CTT submission dot com, it will look like this.
+
+And when you do this, make sure that you are ready and prepared with the information from your teko
+
+to a one.
+
+You will have to put in some information that you received on the printout for successful completion
+
+of that course.
+
+You also are going to need your company ID number and some personal information.
+
+You'll set up an account, you'll perform an email validation, and then you will be prompted to submit
+
+all your videos on this site.
+
+So exciting.
+
+Once you get that done, you're just waiting for a response from the evaluators ready to become a certified
+
+technical trainer.
+
+!-------------------------------------------
+
+All right, let's go ahead and do our review of Section eight, everything you need to know to submit
+
+for the ticket to 03.
+
+As I said, this requires a significant amount of planning and logistics to get this video put together.
+
+And I strongly suggest that you watch these videos thoroughly, that you review the submission forms
+
+from competition, and that you also review the instructions on how to submit for the Teko two or three
+
+that are provided on a comp tilla.
+
+Org.
+
+So by way of review, we talked about how you can get to those documents and what they look like.
+
+We also talked about how you can weave in all of the evaluation criteria.
+
+That is the 12 subdomains of understanding how you can weave them into your performance and give evidence
+
+that you have acquired that knowledge and those skills when you are performing.
+
+We also talked about how to give evidence of those domains of understanding on Form C, which is the
+
+instructor evaluation form where you give some long answers to the questions.
+
+And we talked about some technical quality control things for your recording itself, how to make sure
+
+that you get the best quality recording in terms of your sound and lighting, and particularly for the
+
+Teko 203, it is important that you really understand how to use the virtual software for your classroom,
+
+understand the features, make sure that you can use them thoroughly and to contribute to learners,
+
+and also make sure that you can go seamlessly between instructional media when you're presenting through
+
+the virtual software.
+
+So that's it for the Teko two of three.
+
+I wish you all the best and I'm going to see you for some closing remarks before you get ready to submit
+
+and take your test in Section nine.
+
+I'll see you there.
+
+!-------------------------------------------
+
+Listen, congratulations, you've done a lot of videos here and you've done a lot of practice tests
+
+and you're ready for this exam.
+
+I'm confident that you're going to do well, not only on the computer based portion of the exam, but
+
+also on the video submission.
+
+So I just wanted to say congratulations, reminder that you've done a great job here.
+
+And I also would like to just give you some last minute tips on how to prepare for your tests.
+
+Just some advice here that might make it easier for you and make you feel more than prepared when you
+
+finally sit the exam.
+
+No.
+
+One take as many sample tests as you can.
+
+So I've included a number of sample questions here.
+
+Go ahead and take the ones, the handful that are given at Contigo and anywhere else you can find them.
+
+If you find officials plus sample questions, by all means, do them.
+
+And you know, the more sample questions you experience, the better you're going to get at answering
+
+them.
+
+And, you know, sometimes you may even find sample questions that appear word for word on the test
+
+itself.
+
+So, you know, that can be really helpful to make you feel confident about a lot of the answers that
+
+you're going to see on the test, particularly the computer based test, replicate the testing environment.
+
+So, you know, likely you are going to be taking this test either in person view testing center or
+
+maybe at home proctored through Pearson view.
+
+That means that somebody watching you through your webcam while you're taking the test, but you might
+
+sort of kind of create that experience ahead of time, you know, set ninety minutes on the clock and
+
+then do one of your practice tests and, you know, just kind of visualize what it's going to be like
+
+or, you know, if you're going to be taking it out of Pearson View testing site, go drive down to
+
+the site that you're going to be taking the test and get familiar with the environment.
+
+That can just take one more of the stressors away when it comes actually the time for the test.
+
+When it comes to the material, know your strengths and weaknesses.
+
+You're not going to know every domain of understanding as well as you do the other, particularly as
+
+you're preparing.
+
+But if you notice that you're getting some of the answers wrong in a particular domain, then go back
+
+and review that one in particular.
+
+If you create some flashcards or you go back and watch these videos, you know, focus on the areas
+
+that you're weak at, there's no point, you know, going over information again, if you're getting
+
+all the answers correct, it's your areas of weakness that you want to focus on.
+
+So after you've gone through all this material, if there's still a spot that you're fuzzy on, go back,
+
+watch the videos again, do everything you can to make your weakest domain of understanding your strongest,
+
+and then finally use some positive self talk and imagery.
+
+So when it comes to self talk, you know, sometimes we can get in our heads, we can say stuff like,
+
+oh, you know, this exam is so hard or these questions are so hard to get that kind of that talk out
+
+of your head and replace it with something positive.
+
+You know, if this exam is legitimately difficult, maybe you could change yourself talk and you could
+
+say, you know, I'm knowledgeable enough about this topic to take even a very complex industry certification
+
+exam.
+
+Right.
+
+So you're acknowledging that it's difficult, but now you're spinning it in a way that brings some self
+
+pride because you're prepared for this.
+
+So cut out the negative self talk, replace it with positive self talk.
+
+You're going to do fine on this test.
+
+You're going to do great.
+
+You're going to prepare well and you're going to knock it out of the park.
+
+And then also some visualization can be helpful to this is a very powerful technique where you visualize
+
+yourself seeing that word pass at the end of the computer based exam.
+
+So you visualize what it's going to feel like when you're getting all the questions right.
+
+And, you know, things like this can really help you to remain enthusiastic through the course of your
+
+preparation.
+
+Now, with the performance based exam, as I've said a number of times, just practice the the best
+
+way to overcome your nerves about performance is to feel confident about what you're going to say,
+
+practice as many times as you need to to make sure that you really can assert yourself confidently when
+
+it comes time to click that record button.
+
+You're going to do great on this.
+
+You've done a lot of work so far.
+
+You're going to do some last minute preparation and you're going to nail that test and become a plus
+
+certified trainer.
+
+!-------------------------------------------
+!-------------------------------------------
+All right, I couldn't let you go without a bonus lecture.
+
+Let's talk about how to get rid of those pre certification test nerves.
+
+It is completely understandable that you are a little anxious before taking both the computer based
+
+test and the video exam.
+
+You're not alone in this.
+
+You have invested considerable time and money into getting this certification and you want to get it
+
+right.
+
+So the first thing to remember is that it's completely understandable that you're nervous.
+
+But there are some things you can do, some little hacks to limit the nerves that you have on test day
+
+number one, prepare the night before.
+
+OK, so make sure you get a full night's sleep the night before you're taking your exam.
+
+If you're taking it in the morning, you know, make sure you've had breakfast.
+
+Don't take the exam on an empty stomach, treat your body well so that you have the rest and the fuel
+
+needed to perform at your best.
+
+Number two, don't be rushed.
+
+So, you know, get to the testing center early so you don't have to worry about getting parking and
+
+all those other things that can get you nervous and flustered.
+
+You might map out the directions ahead of time, even drive to the testing center ahead of time so that
+
+there are no surprises on test day.
+
+The same could be said if you are using Pearson views at home testing solution, which is, you know,
+
+when you have the the proctor watching you, you know, make sure you test your hardware and software
+
+so that there are no issues on the day of your test run.
+
+All that ahead of time and get that stress out of your mind, know what to bring for your test, know
+
+what forms of ID you need.
+
+All of that can be found on comp tag.
+
+Again, you don't want there to be any surprises when you get there for your test.
+
+Now, before you sit down for the computer based test, before you actually hit that record button,
+
+you want to manage some of these physiological stressors.
+
+So the best way to do that is to just take a nice deep breath
+
+and allow yourself to just relax a little bit.
+
+If you're if you're doing the performance based exam, you might move around, you might do some jumping
+
+jacks.
+
+All of this can get your body moving a little bit and just relax you.
+
+And then you want to focus, you know, take a minute before you jump into that first question on the
+
+computer based exam and just, you know, realign yourself.
+
+Remind yourself why you're why, why you are there.
+
+Remind yourself about all the preparation that you've done and just refocus.
+
+And if you get, you know, 30 questions in and you start to get a resurgence of your nerves, you know,
+
+sit back in your chair, take another deep breath and refocus again.
+
+Don't keep answering the questions when you're in a nervous state, but take care of those nerves when
+
+it comes to the performance based exam.
+
+Remember, there is nothing better than preparation.
+
+Another thing that will help you calm your nerves is visualization.
+
+Visualize what it's going to be like to pass that exam, particularly for the performance based.
+
+What's it going to feel like standing in front of the class and really dropping the mic and doing a
+
+great job on this.
+
+What's it going to look like when you've concluded the lecture and you know, you did a great job?
+
+What's it going to feel like?
+
+Visualizing your success can make sure that you are actually successful when it comes down to examination
+
+time.
+
+So just remember that you're not alone.
+
+Test taking anxiety is common even for the most experienced certification test takers.
+
+Keep in mind some of these reminders.
+
+Treat yourself well.
+
+You've done a lot of work here.
+
+Thank you for being part of this class.
+
+And I wish you all the best.
